@@ -1,0 +1,546 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/storeCSS.css);
+::-webkit-input-placeholder, body, button, input, select, textarea {
+  font-family: "Inter", sans-serif;
+}
+
+code {
+  font-family: "Fira Code", monospace;
+}
+
+.guilds-2JjMmN .circleIcon-3489FI {
+  color: var(--accent) !important;
+}
+
+.guildSeparator-a4uisj {
+  background: var(--accent);
+}
+
+.container-1NXEtd {
+  background: var(--bg-channel);
+}
+
+.container-1-ERn5 {
+  background: var(--bg-channel-name) !important;
+}
+
+.title-31SJ6t {
+  border: solid;
+  border-width: 0 0 0px 0;
+  border-color: var(--accent);
+}
+
+.title-31SJ6t {
+  background: var(--bg-toolbar) !important;
+}
+
+.chatContent-3KubbW {
+  background: var(--bg-guild) !important;
+}
+
+.channelTextArea-1FufC0, .scrollableContainer-15eg7h {
+  background-color: var(--message-box);
+  border-radius: 30px;
+  box-shadow: 0 0 10px 2.5px var(--glow);
+}
+
+.toolbar-3_r2xA .iconWrapper-2awDjA {
+  --interactive-muted: grey;
+  --interactive-normal: blue;
+  --interactive-hover: purple;
+  --interactive-active: green;
+}
+
+.searchBar-jGtisZ {
+  border: solid;
+  border-width: 0 0 2px 0;
+  border-radius: 0px;
+  border-color: var(--accent);
+  transition: border 0.5s linear;
+  background: var(--bg-search);
+}
+.searchBar-jGtisZ:focus-within {
+  background: var(--bg-search-click);
+}
+.searchBar-jGtisZ:hover {
+  background: var(--bg-search-click);
+  border-width: 0 0 4px 0;
+}
+
+[aria-label=Members].content-2a4AW9 {
+  background: var(--bg-member);
+}
+
+.scroller-3X7KbA {
+  background: var(--bg-server);
+}
+
+.mentioned-Tre-dv {
+  background: rgba(var(--accent), 0.1) !important;
+}
+.mentioned-Tre-dv:before {
+  background: var(--accent) !important;
+}
+.mentioned-Tre-dv:hover {
+  background: rgba(var(--accent), 0.2) !important;
+}
+
+.numberBadge-37OJ3S.base-3IDx3L {
+  background-color: var(--accent) !important;
+}
+
+.replying-eZ7p5z {
+  background: rgba(var(--accent), 0.1) !important;
+}
+.replying-eZ7p5z:before {
+  background-color: var(--accent) !important;
+}
+.replying-eZ7p5z::hover {
+  background: rgba(var(--accent), 0.2) !important;
+}
+
+.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0) {
+  background: rgb(0, 0, 0);
+}
+
+.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0):hover {
+  background: rgb(255, 0, 98);
+}
+
+.buttons-uaqb-5 path {
+  fill: rgb(255, 0, 98);
+}
+
+.anchor-1MIwyf[href="https://support.discord.com"] {
+  display: none !important;
+}
+
+.scroller-3X7KbA > .listItem-3SmSlK:nth-last-child(2) {
+  display: none;
+}
+
+#bd-pub-li {
+  display: none;
+}
+
+[aria-label="Send a gift"] {
+  display: none !important;
+}
+
+#user-context-invite-to-server {
+  display: none;
+}
+
+.children-3xh0VB:after {
+  width: 0px !important;
+}
+
+.form-3gdLxP:before {
+  width: 0px !important;
+}
+
+.scroller-3X7KbA {
+  display: flex;
+  flex-direction: column;
+}
+
+.tutorialContainer-1pL9QS:first-child {
+  order: -2;
+}
+
+.tutorialContainer-2jwoiB {
+  order: -1;
+}
+
+.iconWrapper-2awDjA {
+  order: -1;
+}
+
+.search-39IXmY {
+  overflow: hidden;
+  margin: 0 0 0 8px;
+  order: 1;
+}
+
+.searchBar-jGtisZ {
+  width: 230px;
+  height: 50px;
+  padding-top: 12.5px;
+}
+.searchBar-jGtisZ:focus-within {
+  width: 230px;
+}
+
+.toolbar-3_r2xA, .container-2o3qEW {
+  margin-right: -7px;
+}
+
+[class*=roleIcon] {
+  float: left;
+  margin-left: 0rem;
+  margin-right: 0.25rem;
+}
+
+/*
+  .guilds-2JjMmN .scroller-3X7KbA {
+  contain: unset;
+  margin-top: 56px;
+  margin-bottom: 100px;
+  }
+
+  .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS {
+  position: fixed;
+  transform: translatey( -100% );
+  }
+*/
+.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0) {
+  border: solid;
+  border-width: 0 4px 0 4px;
+  transition: border 0.1s linear;
+}
+
+.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0):hover {
+  border-width: 0 6px 0 6px;
+}
+
+/* Dusk To Dawn Settings - taken from Dusk to Dawn by Asteria */
+:root {
+  --width2: 50%;
+  --height2: 80%;
+}
+
+.layers-OrUESM {
+  align-items: center;
+  justify-content: center;
+}
+
+.layers-OrUESM > .layer-86YKbF:first-child {
+  opacity: 0.8 !important;
+  transform: none !important;
+}
+
+.layers-OrUESM > .layer-86YKbF.stop-animations:first-child {
+  z-index: 1;
+  transition: 250ms ease-in;
+}
+
+.layers-OrUESM > .layer-86YKbF:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  top: calc((100% - var(--height2)) / -1);
+  left: calc((100% - var(--width2)) / -1);
+  padding: calc(100% - var(--height2)) calc(100% - var(--width2));
+  background: rgb(80, 21, 44);
+  z-index: 2;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  transition: opacity 350ms ease;
+}
+
+.layers-OrUESM > .layer-86YKbF:nth-child(2) {
+  width: var(--width2);
+  height: var(--height2);
+  top: unset;
+  bottom: unset;
+  right: unset;
+  left: unset;
+  display: block;
+  overflow: visible;
+  transform: translateZ(0);
+  z-index: 3;
+}
+
+/* Better Channel Indicators by LuckFire*/
+:root {
+  /* better channel indicators variables */
+  --unread-badge: rgba(0,0,0, 1);
+  --unread-bg: rgba(255,255,255, 0.2);
+  --selected-badge: var(--dracula-accent);
+  --selected-bg: var(--dracula-accent-alpha);
+  --selected-bg-hover: var(--dracula-accent-alpha-alt);
+  --hovered-bg: rgba(79, 84, 92, 0.2);
+  --bg-rounding: 2px;
+  --indicators-border-info: 2px solid;
+}
+
+.content-1gYQeQ,
+.channel-1Shao0 > .layout-1qmrhw {
+  background: none !important;
+}
+
+.modeSelected-3DmyhH::before,
+.modeUnread-3Cxepe::before {
+  content: "";
+  position: absolute;
+  height: 34px;
+  top: 0;
+}
+
+.channel-1Shao0.selected-1-Z6gm::before {
+  content: "";
+  position: absolute;
+  height: 44px;
+  top: 0;
+}
+
+.modeSelected-3DmyhH,
+.channel-1Shao0.selected-1-Z6gm {
+  background: var(--selected-bg);
+  border-radius: var(--bg-rounding);
+}
+
+.modeSelected-3DmyhH:hover,
+.channel-1Shao0.selected-1-Z6gm:hover {
+  background: var(--selected-bg-hover);
+}
+
+.modeSelected-3DmyhH::before,
+.channel-1Shao0.selected-1-Z6gm::before {
+  border-left: var(--indicators-border-info) var(--selected-badge);
+}
+
+.content-1gYQeQ,
+.channel-1Shao0 > .layout-1qmrhw {
+  background: none !important;
+}
+
+.modeSelected-3DmyhH::before,
+.modeUnread-3Cxepe::before {
+  content: "";
+  position: absolute;
+  height: 34px;
+  top: 0;
+}
+
+.channel-1Shao0.selected-1-Z6gm::before {
+  content: "";
+  position: absolute;
+  height: 44px;
+  top: 0;
+}
+
+.modeSelected-3DmyhH,
+.channel-1Shao0.selected-1-Z6gm {
+  background: var(--selected-bg);
+  border-radius: var(--bg-rounding);
+}
+
+.modeSelected-3DmyhH:hover,
+.channel-1Shao0.selected-1-Z6gm:hover {
+  background: var(--selected-bg-hover);
+}
+
+.modeSelected-3DmyhH::before,
+.channel-1Shao0.selected-1-Z6gm::before {
+  border-left: var(--indicators-border-info) var(--selected-badge);
+}
+
+.modeUnread-3Cxepe {
+  background: var(--unread-bg);
+  border-radius: var(--bg-rounding);
+}
+
+.modeUnread-3Cxepe::before {
+  border-left: var(--indicators-border-info) var(--unread-badge);
+}
+
+.unread-36eUEm {
+  display: none;
+}
+
+.modeUnread-3Cxepe:hover,
+.wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH),
+.channel-1Shao0.container-1oeRFJ:hover:not(.selected-1-Z6gm) {
+  background: var(--hovered-bg);
+  border-radius: var(--bg-rounding);
+}
+
+.channel-1Shao0.container-1oeRFJ {
+  margin-left: 0;
+  max-width: 233px;
+}
+
+#private-channels > div > .channel-1Shao0 > div > .avatar-6qzftW {
+  margin-left: 4px;
+}
+
+/* hide msg box icons until hover */
+.buttons-uaqb-5 {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.channelTextArea-1FufC0:hover .buttons-uaqb-5 {
+  opacity: 1;
+}
+
+/**
+* @name Cooler Activity Status
+* @author mr_miner#6969
+* @version 1
+* @description makes game activity cards cooler
+* @source https://github.com/mr-miner1/cooler-activity-status
+* @updateUrl https://github.com/mr-miner1/cooler-activity-status/blob/main/theme[bd].theme.css
+*/
+.activityUserPopout-2MzGCj, .activityProfile-1712BN {
+  background-color: var(--activity-bg);
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+.activityUserPopout-2MzGCj h3, .activityProfile-1712BN h3, .activityUserPopout-2MzGCj .content-tXPNDw, .activityProfile-1712BN .content-tXPNDw, .activityUserPopout-2MzGCj .activityName-3YXl6e, .activityProfile-1712BN .activityName-3YXl6e, .activityUserPopout-2MzGCj .details-2-ciHo, .activityProfile-1712BN .details-2-ciHo {
+  color: var(--text-color) !important;
+}
+
+.activityUserPopout-2MzGCj .button-TGAkj4, .activityProfile-1712BN .button-TGAkj4 {
+  background-color: transparent !important;
+  border: var(--text-color) 2px solid;
+  transition: 0.5s;
+}
+
+.activityUserPopout-2MzGCj .button-TGAkj4:hover, .activityProfile-1712BN .button-TGAkj4:hover {
+  background-color: var(--text-color) !important;
+  border-color: transparent;
+  color: black !important;
+}
+
+.activityUserPopout-2MzGCj .nameWrap-3TyM52.textRow-1sENuL.base-21yXnu.size14-3fJ-ot[title]::after, .activityProfile-1712BN .nameWrap-3TyM52.textRow-1sENuL.base-21yXnu.size14-3fJ-ot[title]::after, .activityUserPopout-2MzGCj .detailsWrap-omKn0b.textRow-1sENuL::after, .activityProfile-1712BN .detailsWrap-omKn0b.textRow-1sENuL::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-color: var(--twitch-bg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+
+.activityUserPopout-2MzGCj .timeBarUserPopout-qLXZaR::after, .activityProfile-1712BN .timeBarUserPopout-qLXZaR::after, .activityUserPopout-2MzGCj .timeBarProfile-1z_HH-::after, .activityProfile-1712BN .timeBarProfile-1z_HH-::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: var(--spotify-bg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+
+.themed-1LCNAV .barInner-3dHef4 {
+  background-color: var(--text-color);
+}
+
+.activityUserPopout-2MzGCj .spotifyIcon-2J9kSv, .activityProfile-1712BN .spotifyIcon-2J9kSv {
+  margin: 5px 5px 0px 0px;
+}
+
+.activityUserPopout-2MzGCj .spotifyIcon-2J9kSv path, .activityProfile-1712BN .spotifyIcon-2J9kSv path {
+  fill: var(--text-color);
+}
+
+.activityUserPopout-2MzGCj .contentNoImagesUserPopout-12NyFa::after, .activityProfile-1712BN .contentNoImagesUserPopout-12NyFa::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-color: var(--bot-bg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+
+.activityProfile-1712BN {
+  margin: 10px;
+  border-radius: 6px;
+}
+
+.activityProfile-1712BN .spotifyIcon-2J9kSv {
+  margin: 0px 0px 0px 0px;
+}
+
+.xboxAssets-aGhVw8 ~ div::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-color: var(--xbox-bg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+
+/* Messages Slide In Chat */
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.message-2CShn3 {
+  animation: slide-up 0.3s ease-out;
+}
+
+/* Better Jump To Present Button 
+Author: Lonk#6942
+*/
+[class*=jumpToPresentBar] {
+  display: contents;
+}
+
+[class*=jumpToPresentBar] > button:first-child {
+  display: none;
+}
+
+[class*=jumpToPresentBar] > button:last-child {
+  position: absolute;
+  z-index: 1;
+  bottom: 24px;
+  right: 22px;
+  padding: 8px !important;
+  height: auto;
+  background-color: var(--accent);
+  box-shadow: var(--elevation-high);
+  border-radius: 100px;
+  display: flex;
+  font-size: 0px;
+  color: transparent;
+  transition: font-size 0.2s 0.1s, color 0.2s, padding 0.4s 0.1s;
+}
+
+[class*=jumpToPresentBar] > button svg {
+  order: -1;
+  margin: 0px;
+  height: 24px;
+  width: 24px;
+  top: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: var(--dark-text);
+  transition: margin 0.6s;
+}
+
+[class*=jumpToPresentBar]:hover > button {
+  padding: 8px 18px !important;
+  font-size: 14px;
+  color: var(--dark-text);
+  transition: font-size 0.2s, color 0.2s 0.1s, padding 0.4s;
+}
+
+[class*=jumpToPresentBar]:hover > button svg {
+  margin-right: 2px;
+  margin-left: -6px;
+}
+
+/*# sourceMappingURL=sakuradite.css.map */
