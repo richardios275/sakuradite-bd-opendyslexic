@@ -1,0 +1,130 @@
+$accent: var(--accent);
+$background2: rgb(0,0,0);
+
+//Add server button
+.guilds-2JjMmN .circleIcon-3489FI {
+  color: $accent !important;
+}
+//Guild Separator
+.guildSeparator-a4uisj {
+  background: $accent;
+}
+
+//Channel List
+.container-1NXEtd{
+  background: var(--bg-channel);
+}
+//Channel Name
+.container-1-ERn5{
+  background: var(--bg-channel-name) !important;
+}
+
+//Toolbar Border
+.title-31SJ6t {
+ border: solid;
+ border-width: 0 0 0px 0;
+ border-color: $accent; 
+}
+
+//Toolbar Background
+.title-31SJ6t {
+  background: var(--bg-toolbar) !important; 
+}
+
+//Guild Chat
+.chatContent-3KubbW {
+  background: var(--bg-guild) !important;
+}
+
+
+.channelTextArea-1FufC0, .scrollableContainer-15eg7h{
+  background-color: var(--message-box);
+  border-radius: 30px;
+  box-shadow: 0 0 10px 2.5px var(--glow);
+}
+
+
+//Toolbar colors
+.toolbar-3_r2xA .iconWrapper-2awDjA {
+  --interactive-muted: grey;
+  --interactive-normal: blue;
+  --interactive-hover: purple;
+  --interactive-active: green;
+}
+
+//Search
+.searchBar-jGtisZ {
+  border: solid;
+  border-width: 0 0 2px 0;
+  border-radius: 0px;
+  border-color: $accent;
+  transition: border 0.5s linear;
+  background: var(--bg-search);
+  &:focus-within {
+    background: var(--bg-search-click);
+  }
+  &:hover {
+    background: var(--bg-search-click);
+    border-width: 0 0 4px 0;
+  }
+}
+
+
+
+//Member list
+[aria-label="Members"].content-2a4AW9 {
+  background: var(--bg-member);
+}
+
+
+//Server List
+.scroller-3X7KbA {
+  background: var(--bg-server);
+}
+
+//Mentioned Highlight color
+.mentioned-Tre-dv {
+  background: rgba($accent, 0.1) !important;
+  &:before {
+    background: $accent !important;
+  }
+  &:hover {
+    background: rgba($accent, 0.2) !important;
+  }
+}
+.numberBadge-37OJ3S.base-3IDx3L {
+  background-color: $accent !important;
+}
+
+//Reply highlight color
+.replying-eZ7p5z {
+  background: rgba($accent, 0.1) !important;
+  &:before {
+    background-color: $accent !important;
+  }
+  &::hover {
+    background: rgba($accent, 0.2) !important;
+  }
+}
+
+//Role color
+.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0){
+  background: rgb(0,0,0);
+}
+
+//Role hover color
+.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0):hover {
+  background: rgb(255,0,98);
+}
+
+
+//Message buttons color
+.buttons-uaqb-5 {
+	path {
+		fill: rgb(255,0,98)
+	}
+}
+
+
+
+

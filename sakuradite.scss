@@ -1,0 +1,52 @@
+/**
+ * @name Sakuradite
+ * @author AZZZERTYY
+ * @description Cherry discord theme based on the sakuradite color scheme
+ * @version 0.1
+ */
+
+/* Addons */
+@use "./src/font.css";
+@use "./src/recolors.scss";
+@use "./src/removals.css";
+@use "./src/reposition.scss";
+@use "./src/role-border.css";
+
+@use "./addons/settings.css";
+@use "./addons/better-channel-idicators.scss";
+@use "./addons/dissapearing-icons.scss";
+@use "./addons/cooler-activity.css";
+@use "./addons/sliding-messages.css";
+@use "./addons/jump-present.scss";
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/storeCSS.css);
+
+
+
+
+@import url(""); /**/
+
+:root {
+    --accent: #ff0062;
+    --glow: #ff0062aa;
+    --bg-server: #212b31;
+    --bg-toolbar: #172125;
+    --bg-search: #121a1d;
+    --bg-search-click: #212b31;
+    --bg-channel: #172125;
+    --bg-channel-name: #172125;
+    --bg-guild: #121a1d;
+    --message-box: #172125;
+    --bg-member: #172125;
+    --light-text: #ffffff;
+    --dark-text: #000000;
+
+    //Activity Colors
+    --activity-bg: #ff80ea;
+    --spotify-bg: #1bf3a0;
+    --twitch-bg: #7929cc;
+    --bot-bg: #9733ff;
+    --xbox-bg: #17cc86;
+  }
+ 

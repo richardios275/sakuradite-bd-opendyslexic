@@ -1,0 +1,10 @@
+@import url('https://rsms.me/inter/inter.css');
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: "Inter", sans-serif;
+}
+
+code {
+    font-family: "Fira Code", monospace;
+    }
+    

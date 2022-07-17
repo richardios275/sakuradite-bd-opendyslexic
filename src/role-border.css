@@ -1,0 +1,11 @@
+.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0) {
+  border: solid;
+  border-width: 0 4px 0 4px;
+  transition: border 0.1s linear;
+}
+.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0):hover {
+  border-width: 0 6px 0 6px;
+
+}
+
+

@@ -1,0 +1,65 @@
+
+//Needed to move server button
+.scroller-3X7KbA {
+  display: flex;
+  flex-direction: column;
+}
+
+//Moves home above add server button
+.tutorialContainer-1pL9QS:first-child {
+  order: -2;
+    
+}
+  
+//Moves add server button to the top
+.tutorialContainer-2jwoiB {
+  order: -1;
+}
+
+//Moves inbox to the left of search
+.iconWrapper-2awDjA{
+  order: -1;
+}
+
+//Moves search slightly
+.search-39IXmY{
+	overflow: hidden;
+	margin: 0 0 0 8px;
+	order: 1;
+}
+
+//Makes search the size of the member list
+.searchBar-jGtisZ {
+  width: 230px;
+  height: 50px;
+  padding-top: 12.5px;
+  &:focus-within {
+    width: 230px;
+  }
+}
+
+//Remove the gap between member list and search
+.toolbar-3_r2xA, .container-2o3qEW{
+  margin-right: -7px;
+}
+
+//Move role badge to left of name
+[class*="roleIcon"] {
+  float: left;
+  margin-left: 0rem;
+  margin-right: .25rem;
+  }
+  
+
+/*
+  .guilds-2JjMmN .scroller-3X7KbA {
+  contain: unset;
+  margin-top: 56px;
+  margin-bottom: 100px;
+  }
+  
+  .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS {
+  position: fixed;
+  transform: translatey( -100% );
+  }
+*/

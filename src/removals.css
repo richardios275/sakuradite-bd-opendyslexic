@@ -1,0 +1,27 @@
+.anchor-1MIwyf[href="https://support.discord.com"] {
+    display: none !important;
+  }
+
+.scroller-3X7KbA > .listItem-3SmSlK:nth-last-child(2) {
+    display: none;
+}
+
+#bd-pub-li {
+    display: none;
+}
+
+[aria-label="Send a gift"] {
+  display: none !important;
+}
+
+#user-context-invite-to-server {
+  display: none;
+}
+
+.children-3xh0VB:after {
+  width: 0px !important;
+}
+
+.form-3gdLxP:before {
+  width: 0px !important;
+}
