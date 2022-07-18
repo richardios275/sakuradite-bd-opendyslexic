@@ -1,5 +1,6 @@
 
-![sakura](https://user-images.githubusercontent.com/42524344/179572460-da94a95c-a783-4d5f-beaf-486acd282b9a.svg)
+![image](https://user-images.githubusercontent.com/42524344/179573835-61436c8c-349e-489f-b6ae-18aa055db31c.png)
+
 
 
 A better discord theme oriented around the Sakuradite color scheme.
