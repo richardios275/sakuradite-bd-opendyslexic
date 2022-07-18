@@ -31,12 +31,22 @@ $background2: rgb(0,0,0);
   background: var(--bg-toolbar) !important; 
 }
 
+//New Pin color
+.iconBadge-3Mmg92 {
+  background: var(--accent);
+}
+
 //Guild Chat
 .chatContent-3KubbW {
   background: var(--bg-guild) !important;
 }
 
 
+.messageContent-2t3eCI {
+  color: var(--light-text);
+}
+
+//Message Box
 .channelTextArea-1FufC0, .scrollableContainer-15eg7h{
   background-color: var(--message-box);
   border-radius: 30px;
@@ -44,13 +54,6 @@ $background2: rgb(0,0,0);
 }
 
 
-//Toolbar colors
-.toolbar-3_r2xA .iconWrapper-2awDjA {
-  --interactive-muted: grey;
-  --interactive-normal: blue;
-  --interactive-hover: purple;
-  --interactive-active: green;
-}
 
 //Search
 .searchBar-jGtisZ {
@@ -69,13 +72,18 @@ $background2: rgb(0,0,0);
   }
 }
 
-
-
 //Member list
 [aria-label="Members"].content-2a4AW9 {
   background: var(--bg-member);
 }
 
+.container-2o3qEW {
+  background: var(--bg-member);
+}
+
+.members-3WRCEx {
+  background: var(--bg-member);
+}
 
 //Server List
 .scroller-3X7KbA {

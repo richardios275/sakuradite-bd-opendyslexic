@@ -4,13 +4,9 @@
 @use "./src/reposition.scss";
 @use "./src/role-border.css";
 
-
+@use "./addons/settings.css";
 @use "./addons/better-channel-idicators.scss";
 @use "./addons/dissapearing-icons.scss";
 @use "./addons/cooler-activity.css";
 @use "./addons/sliding-messages.css";
 @use "./addons/jump-present.scss";
-
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/storeCSS.css);
-
