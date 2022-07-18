@@ -1,0 +1,47 @@
+.scroller-WSmht3 {
+    background: var(--bg-friends);
+}
+
+.searchBar-3TnChZ {
+    background: var(--bg-search);
+    border: solid;
+    border-width: 0 0 2px 0;
+    border-radius: 0px;
+    border-color: var(--accent);
+    transition: border 0.1s ease-out;
+    background: var(--bg-search);
+    &:hover {
+      background: var(--bg-search-click);
+    }
+    height: 46px;
+}
+
+.searchBarComponent-3N7dCG {
+    background: #00000000 !important;
+}
+
+.peopleColumn-1wMU14 {
+    background: var(--bg-friends-list);
+}
+
+.container-1oAagU {
+    background: var(--bg-activity);
+}
+
+.itemCard-3Etziu {
+    background: var(--bg-activity-modal);
+}
+
+.container-ZMc96U {
+    background: var(--bg-friend-toolbar) !important;
+    border: solid;
+    border-width: 0 0 2px 0;
+    border-radius: 0px;
+    border-color: var(--accent);
+}
+
+
+[aria-label="Add Friend"]  {
+    background-color: var(--accent) !important;
+    color: var(--dark-text) !important;
+}

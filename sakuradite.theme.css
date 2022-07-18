@@ -1,11 +1,10 @@
-
   /**
  * @name Sakuradite-test
  * @author AZZZERTYY
  * @authorId 196392067281321985
  * @description Cherry discord theme based on the sakuradite color scheme
  * @source https://github.com/azzzertyy/sakuradite
- * @version 0.2
+ * @version 0.3
  */
 
 
@@ -13,17 +12,26 @@
 
 :root {
     /* Every color variable is here. I am sick of developers not doing this. */
+    /* Note, to change the sakura logo color replace #ff0062 with your own color */
     --accent: #ff0062;
     --glow: #ff0062aa;
     --bg-server: #212b31;
-    --bg-toolbar: #172125;
+    --bg-button: #172125;
+    --bg-button-hover: #121a1d;
+    --bg-toolbar: #1a262b;
     --bg-search: #121a1d;
     --bg-search-click: #212b31;
     --bg-channel: #172125;
-    --bg-channel-name: #172125;
+    --bg-channel-name: #1a262b;
     --bg-guild: #121a1d;
     --message-box: #172125;
     --bg-member: #172125;
+    --bg-friend-toolbar: #1a262b;
+    --bg-friends: #172125;
+    --bg-friends-search: #1a262b;
+    --bg-friends-list: #121a1d;
+    --bg-activity: #172125;
+    --bg-activity-modal: #121a1d;
     --light-text: #ffeff5;
     --dark-text: #000000;
 

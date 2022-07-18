@@ -17,12 +17,18 @@ $background2: rgb(0,0,0);
 //Channel Name
 .container-1-ERn5{
   background: var(--bg-channel-name) !important;
+  border: solid;
+  border-width: 0 0 2.8px 0;
+  border-radius: 0px;
+  margin-top: -2.8px;
+  border-color: var(--accent);
+  
 }
 
 //Toolbar Border
 .title-31SJ6t {
  border: solid;
- border-width: 0 0 0px 0;
+ border-width: 0 0 2px 0;
  border-color: $accent; 
 }
 
@@ -68,7 +74,6 @@ $background2: rgb(0,0,0);
   }
   &:hover {
     background: var(--bg-search-click);
-    border-width: 0 0 4px 0;
   }
 }
 
@@ -133,6 +138,18 @@ $background2: rgb(0,0,0);
 	}
 }
 
-
-
-
+.childWrapper-1j_1ub {
+  background: var(--bg-button);
+}
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+  background: var(--bg-button-hover);
+}
+.circleIconButton-1VxDrg {
+  background: var(--bg-button);
+}
+.circleIconButton-1VxDrg:hover {
+  background:var(--bg-button-hover);
+}
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+  background:var(--bg-button-hover);
+}

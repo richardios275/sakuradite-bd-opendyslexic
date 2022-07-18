@@ -1,13 +1,19 @@
 
-@use "./src/font.css";
-@use "./src/recolors.scss";
-@use "./src/removals.css";
-@use "./src/reposition.scss";
-@use "./src/role-border.css";
+    @use "./src/font.css";
+    @use "./src/main.scss";
+    @use "./src/home.scss";
+    @use "./src/removals.css";
+    @use "./src/reposition.scss";
+    @use "./src/role-border.css";
+    @use "./src/replace-svg.scss";
+    @use "./assets/sakura-converted.scss";
 
-@use "./addons/settings.css";
-@use "./addons/better-channel-idicators.scss";
-@use "./addons/dissapearing-icons.scss";
-@use "./addons/cooler-activity.css";
-@use "./addons/sliding-messages.css";
-@use "./addons/jump-present.scss";
+    @use "./addons/settings.css";
+    @use "./addons/better-channel-idicators.scss";
+    @use "./addons/dissapearing-icons.scss";
+    @use "./addons/cooler-activity.css";
+    @use "./addons/sliding-messages.css";
+    @use "./addons/jump-present.scss";
+
+ @import url(); 
+
