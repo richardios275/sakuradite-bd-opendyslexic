@@ -1,3 +1,18 @@
+/**
+ * @name Sakuradite-test
+ * @author AZZZERTYY
+ * @authorId 196392067281321985
+ * @description Cherry discord theme based on the sakuradite color scheme
+ * @source https://github.com/azzzertyy/sakuradite
+ * @version 0.2
+ */
+
+/* Addons */
+
+
+
+ 
+
 @use "./src/font.css";
 @use "./src/recolors.scss";
 @use "./src/removals.css";
@@ -10,3 +25,45 @@
 @use "./addons/cooler-activity.css";
 @use "./addons/sliding-messages.css";
 @use "./addons/jump-present.scss";
+
+@import url();
+
+:root {
+    // Every color variable is here. I am sick of developers not doing this.
+    --accent: #ff0062;
+    --glow: #ff0062aa;
+    --bg-server: #212b31;
+    --bg-toolbar: #172125;
+    --bg-search: #121a1d;
+    --bg-search-click: #212b31;
+    --bg-channel: #172125;
+    --bg-channel-name: #172125;
+    --bg-guild: #121a1d;
+    --message-box: #172125;
+    --bg-member: #172125;
+    --light-text: #ffeff5;
+    --dark-text: #000000;
+
+    /* Activity Colors */
+    --activity-bg: #ff80ea;
+    --spotify-bg: #1bf3a0;
+    --twitch-bg: #7929cc;
+    --bot-bg: #9733ff;
+    --xbox-bg: #17cc86;
+
+    /*Toolbar Button Colors */
+    .toolbar-3_r2xA .iconWrapper-2awDjA {
+        --interactive-muted: #a09699;
+        --interactive-normal: #ffeff5;
+        --interactive-hover: #c9004d;
+        --interactive-active: var(--accent);
+    }
+    
+    /*Channel Buttons */
+    .name-28HaxV {
+        --interactive-muted: #a09699;
+        --interactive-hover: var(--accent) !important;
+        --interactive-active: var(--light-text);
+    }
+
+  }
