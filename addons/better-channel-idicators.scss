@@ -1,17 +1,17 @@
 /* Better Channel Indicators
 Authour: LuckFire#4800
 */
-$accent: var(--accent);
 :root {
 	/* better channel indicators variables */
-	--unread-badge: rgba(0,0,0, 1);
-	--unread-bg: rgba(255,255,255, 0.2);
-	--selected-badge: var(--dracula-accent);
-	--selected-bg: var(--dracula-accent-alpha);
-	--selected-bg-hover: var(--dracula-accent-alpha-alt);
-	--hovered-bg: rgba(79, 84, 92, 0.2);
+	--unread-badge: var(--accent);
+	--unread-bg: var(--bg-unread);
+	--selected-badge: var(--accent);
+	--selected-bg: var(--accent);
+	--selected-bg-hover: var(--accent);
+	--hovered-bg: var(--accent);
 	--bg-rounding: 2px;
-	--indicators-border-info: 2px solid;
+	--indicators-border-info: 4px solid;
+  
 }
 
 .content-1gYQeQ,
@@ -35,8 +35,12 @@ $accent: var(--accent);
 
 .modeSelected-3DmyhH,
 .channel-1Shao0.selected-1-Z6gm {
-  background: var(--selected-bg);
+  --channel-icon: var(--dark-text);
   border-radius: var(--bg-rounding);
+  //Action buttons on selected channel
+  .actionIcon-2sw4Sl {
+    color: var(--dark-text);
+  }
 }
 .modeSelected-3DmyhH:hover,
 .channel-1Shao0.selected-1-Z6gm:hover {
@@ -83,7 +87,14 @@ $accent: var(--accent);
 .modeUnread-3Cxepe {
   background: var(--unread-bg);
   border-radius: var(--bg-rounding);
+
+  .name-28HaxV {
+    --interactive-hover: var(--light-text)!important;
+    --interactive-active: var(--light-text)!important;
+  }
+
 }
+
 .modeUnread-3Cxepe::before {
   border-left: var(--indicators-border-info) var(--unread-badge);
 }
@@ -96,6 +107,16 @@ $accent: var(--accent);
 .channel-1Shao0.container-1oeRFJ:hover:not(.selected-1-Z6gm) {
   background: var(--hovered-bg);
   border-radius: var(--bg-rounding);
+  //Action buttons on selected channel
+  .actionIcon-2sw4Sl {
+    color: var(--dark-text);
+  }
+  .icon-2W8DHg{
+    color: var(--dark-text);
+  }
+  .channelName-3KPsGw {
+    color: var(--dark-text);
+  }
 }
 
 .channel-1Shao0.container-1oeRFJ {

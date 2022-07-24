@@ -1,5 +1,4 @@
 @import url("https://rsms.me/inter/inter.css");
-@import url();
 ::-webkit-input-placeholder, body, button, input, select, textarea {
   font-family: "Inter", sans-serif;
 }
@@ -144,6 +143,10 @@ code {
   background: var(--bg-button-hover);
 }
 
+.modeMuted-2T4MDZ .icon-2W8DHg {
+  color: var(--glow);
+}
+
 .scroller-WSmht3 {
   background: var(--bg-friends);
 }
@@ -189,6 +192,25 @@ code {
 [aria-label="Add Friend"] {
   background-color: var(--accent) !important;
   color: var(--dark-text) !important;
+}
+
+.selected-3veCBZ {
+  background: var(--bg-friend-selected);
+  color: var(--dark-text);
+}
+
+.selected-3veCBZ:hover {
+  background: var(--bg-friend-selected);
+  color: var(--dark-text);
+}
+
+.interactive-1vLZ_I:hover {
+  background-color: var(--bg-friend-selected);
+  color: var(--dark-text);
+}
+
+.section-3G9aLW {
+  background: var(--bg-activity);
 }
 
 .anchor-1MIwyf[href="https://support.discord.com"] {
@@ -357,14 +379,14 @@ Authour: LuckFire#4800
 */
 :root {
   /* better channel indicators variables */
-  --unread-badge: rgba(0,0,0, 1);
-  --unread-bg: rgba(255,255,255, 0.2);
-  --selected-badge: var(--dracula-accent);
-  --selected-bg: var(--dracula-accent-alpha);
-  --selected-bg-hover: var(--dracula-accent-alpha-alt);
-  --hovered-bg: rgba(79, 84, 92, 0.2);
+  --unread-badge: var(--accent);
+  --unread-bg: var(--bg-unread);
+  --selected-badge: var(--accent);
+  --selected-bg: var(--accent);
+  --selected-bg-hover: var(--accent);
+  --hovered-bg: var(--accent);
   --bg-rounding: 2px;
-  --indicators-border-info: 2px solid;
+  --indicators-border-info: 4px solid;
 }
 
 .content-1gYQeQ,
@@ -389,8 +411,12 @@ Authour: LuckFire#4800
 
 .modeSelected-3DmyhH,
 .channel-1Shao0.selected-1-Z6gm {
-  background: var(--selected-bg);
+  --channel-icon: var(--dark-text);
   border-radius: var(--bg-rounding);
+}
+.modeSelected-3DmyhH .actionIcon-2sw4Sl,
+.channel-1Shao0.selected-1-Z6gm .actionIcon-2sw4Sl {
+  color: var(--dark-text);
 }
 
 .modeSelected-3DmyhH:hover,
@@ -443,6 +469,10 @@ Authour: LuckFire#4800
   background: var(--unread-bg);
   border-radius: var(--bg-rounding);
 }
+.modeUnread-3Cxepe .name-28HaxV {
+  --interactive-hover: var(--light-text)!important;
+  --interactive-active: var(--light-text)!important;
+}
 
 .modeUnread-3Cxepe::before {
   border-left: var(--indicators-border-info) var(--unread-badge);
@@ -457,6 +487,21 @@ Authour: LuckFire#4800
 .channel-1Shao0.container-1oeRFJ:hover:not(.selected-1-Z6gm) {
   background: var(--hovered-bg);
   border-radius: var(--bg-rounding);
+}
+.modeUnread-3Cxepe:hover .actionIcon-2sw4Sl,
+.wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH) .actionIcon-2sw4Sl,
+.channel-1Shao0.container-1oeRFJ:hover:not(.selected-1-Z6gm) .actionIcon-2sw4Sl {
+  color: var(--dark-text);
+}
+.modeUnread-3Cxepe:hover .icon-2W8DHg,
+.wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH) .icon-2W8DHg,
+.channel-1Shao0.container-1oeRFJ:hover:not(.selected-1-Z6gm) .icon-2W8DHg {
+  color: var(--dark-text);
+}
+.modeUnread-3Cxepe:hover .channelName-3KPsGw,
+.wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH) .channelName-3KPsGw,
+.channel-1Shao0.container-1oeRFJ:hover:not(.selected-1-Z6gm) .channelName-3KPsGw {
+  color: var(--dark-text);
 }
 
 .channel-1Shao0.container-1oeRFJ {
