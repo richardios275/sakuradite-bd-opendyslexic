@@ -1,0 +1,17 @@
+/* Revert user popouts
+Author:Disease#3749
+*/
+
+.didRender-2SiRlm>.userPopout-29jUdN {
+    width: 220px;
+}
+
+.didRender-2SiRlm>.userPopout-29jUdN .userPopoutInner-1v4xcM>:not(.overlayBackground-2Zjm9f),
+.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f>:not(#account.menu-1QACrS),
+.didRender-2SiRlm>.userPopout-29jUdN #account.menu-1QACrS #account-divider-1 {
+    display: none;
+}
+
+.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f {
+    margin: 0;
+}

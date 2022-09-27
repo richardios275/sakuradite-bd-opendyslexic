@@ -6,6 +6,8 @@
     @use "./src/reposition.scss";
     @use "./src/role-border.css";
     @use "./src/replace-svg.scss";
+    @use "./src/inbox.scss";
+    @use "./src/forums.scss";
     @use "./assets/sakura-converted.scss";
 
     @use "./addons/settings.css";
@@ -14,4 +16,5 @@
     @use "./addons/cooler-activity.css";
     @use "./addons/sliding-messages.css";
     @use "./addons/jump-present.scss";
+    @use "./addons/revert-user-popout.css";
  

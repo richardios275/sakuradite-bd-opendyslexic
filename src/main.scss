@@ -14,6 +14,7 @@ $background2: rgb(0,0,0);
 .container-1NXEtd{
   background: var(--bg-channel);
 }
+
 //Channel Name
 .container-1-ERn5{
   background: var(--bg-channel-name) !important;
@@ -22,7 +23,14 @@ $background2: rgb(0,0,0);
   border-radius: 0px;
   margin-top: -2.8px;
   border-color: var(--accent);
-  
+}
+
+.expandedFolderBackground-1kSAf6 {
+  background: var(--bg-channel);
+}
+
+.expandedFolderIconWrapper-3RwQpD {
+  background: var(--bg-channel);
 }
 
 //Toolbar Border
@@ -47,7 +55,6 @@ $background2: rgb(0,0,0);
   background: var(--bg-guild) !important;
 }
 
-
 .messageContent-2t3eCI {
   color: var(--light-text);
 }
@@ -58,8 +65,6 @@ $background2: rgb(0,0,0);
   border-radius: 30px;
   box-shadow: 0 0 10px 2.5px var(--glow);
 }
-
-
 
 //Search
 .searchBar-jGtisZ {
@@ -157,4 +162,146 @@ $background2: rgb(0,0,0);
 //Muted Svg
 .modeMuted-2T4MDZ .icon-2W8DHg{
   color: var(--glow);
+}
+
+//Nitro progress bar
+.progressBar-2yl2pi {
+  background: rgb(255,0,98);
+  background: linear-gradient(90deg, rgba(255,0,98,1) 0%, rgba(255,0,183,1) 100%);
+}
+
+[aria-label="Image of party popper"]{
+  font-size: 0px;
+}
+
+#app-mount ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#app-mount ::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+}
+
+.grid-1aWVsE {
+  background: var(--bg-text-modal);
+}
+
+.closeButton-3CiW2j {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.button-1_oXub{
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+
+.searchHeader-1r_ZSh {
+  background: var(--search-modal-header);
+}
+
+.searchResultsWrap-5RVOkx {
+  background: var(--search-modal);
+}
+
+.searchResult-O9NDji {
+  background: var(--search-modal-result);
+}
+
+.channelName-3w2Y3c {
+  background: var(--search-modal);
+  color: var(--accent) !important;
+}
+
+.scroller-18M1mG {
+  background: var(--message-box-addition);
+}
+
+.base-2v-uc0:hover {
+  background: var(--accent) !important;
+  .text-md-normal-304U3g {
+    color: var(--dark-text) !important;
+  }
+  .icon-nmEpWl {
+    color: var(--dark-text);
+  }
+}
+
+.messageGroupWrapper-1jf_7C {
+  background: var(--inbox-header);
+}
+
+.header-1w9Q93 {
+  background: var(--inbox-header);
+}
+
+.wrapper-2vIMkT{
+  background: var(--accent);
+}
+.button-3bklZh {
+  color: var(--dark-text);
+}
+.button-3bklZh:hover {
+  color: var(--dark-text) !important;
+  background: var(--accent) !important;
+}
+
+.userPopoutInnerWithoutTheme-3IBtvN{
+  background: var(--user-modal);
+}
+
+.overlayBackground-1KgwVi {
+  background: transparent;
+}
+
+.bannerSVGWrapper-qc0szY{
+  circle {
+    cx: 50%;
+  }
+}
+
+.avatarWrapperNormal-1tQ3Je{
+  margin-left: 31.75%;
+}
+
+.nickname-2rimyL{
+  display: none;
+}
+
+.userTagWithNickname-3-znkC  {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  word-break: break-word;
+  white-space: normal;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+ 
+}
+
+.username-3JLfHz {
+  color: var(--light-text);
+  font-family: "Inter", sans-serif !important;
+}
+
+.discrimBase-KriZSj {
+  color: var(--light-text);
+  font-family: "Inter", sans-serif !important;
+}
+
+.customStatus-3Bvsdb {
+  margin-top: 20px;
+}
+
+.userTagNoNickname-2MJ9HD {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  word-break: break-word;
+  white-space: normal;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }

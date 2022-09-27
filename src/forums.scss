@@ -1,0 +1,138 @@
+/*Largely based on Disease's forum redesign, 
+Author:Disease#3749*/
+
+.container-3YcgdM {
+    background: var(--forum-divider);
+}
+
+.divider-AZrXIA {
+    background: var(--forum-divider);
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+    background: var(--accent);
+    color: var(--dark-text);
+}
+
+.buttonInner-3aRbcx{
+    background: var(--bg-forum);
+    color: var(--light-text)
+}
+
+.buttonInner-3aRbcx:hover{
+    background: var(--accent);
+    color: var(--dark-text)
+}
+
+#app-mount .container-3wLKDe,
+#app-mount .background-fkKrXt {
+    background-color: var(--bg-forum);
+}
+
+.mainCard-3KBsBI {
+    background-color: var(--forum-card);
+    border-radius: 20px;
+}
+
+.container-2qVG6q {
+    border: none;
+}
+
+.matchingPostsRow-2IiEQ1 {
+    display: none !important;
+}
+
+.container-2qVG6q:hover {
+    background-color: var(--forum-card);
+}
+
+.mainCard-3KBsBI .heading-lg-medium-3gUJeM,
+.mainCard-3KBsBI .heading-lg-normal-1bqh2L {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.sidebarCard-1Gn1ch {
+    background-color: var(--forum-card);
+    border: none;
+
+}
+
+.mainCard-3KBsBI.header-1Uy0p6:hover {
+    border-color: transparent;
+}
+
+.mainCard-3KBsBI form .title-1v5ZfI,
+.mainCard-3KBsBI form .title-1v5ZfI::placeholder {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.mainCard-3KBsBI .pill-3pRQlO {
+    background-color: var(--forum-tag);
+}
+
+.mainCard-3KBsBI:hover .pill-3pRQlO:hover {
+    background-color: var(--accent);
+    color: var(--dark-text);
+    .defaultColor-24IHKz {
+        color: var(--dark-text);
+    }
+}
+
+.mainCard-3KBsBI .dots-2_b2Mn {
+    border-color: transparent;
+    background: var(--forum-tag);
+}
+
+.pill-3pRQlO {
+    background: var(--forum-card);
+}
+.pill-3pRQlO:hover {
+    background: var(--accent) !important;
+    .defaultColor-24IHKz {
+        color: rgb(0,0,0);
+    }
+}
+
+.tagsButton-4pwOKH .tagsButtonInner-2pvSm1 {
+    color: var(--accent);
+}
+
+.container-2O1UgZ {
+    background: var(--forum-card);
+    border-color: var(--bg-forum);
+    border-width: 5px;
+    border-radius: 20px;
+    height: 265px;
+}
+
+.item-1BCeuB:hover {
+    background: var(--bg-forum) !important;
+}
+
+.container-2oNtJn, .inner-2pOSmK {
+    background: var(--bg-forum);
+}
+
+.container-3XgAHv .container-27JV1h .heading-xxl-medium-1hl0GL,
+.container-3XgAHv .container-27JV1h .heading-xxl-normal-3zbV4t {
+    font-family: var(--font-display);
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.container-3XgAHv .container-27JV1h .iconWrapper-3FqQ75 {
+    margin-top: 0;
+}
+
+.container-JhuCwn {
+    background: var(--forum-card);
+}
+
+.option-2eIyOn[aria-selected=true]:not(.option-2eIyOn.multi-1HXDiv){
+    background: var(--forum-tag);
+}
+.popout-1KHNAq {
+    background: var(--forum-tag);
+}

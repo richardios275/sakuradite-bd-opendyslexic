@@ -6,10 +6,6 @@
     display: none;
 }
 
-#bd-pub-li {
-    display: none;
-}
-
 [aria-label="Send a gift"] {
   display: none !important;
 }
@@ -25,3 +21,4 @@
 .form-3gdLxP:before {
   width: 0px !important;
 }
+
