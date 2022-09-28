@@ -58,10 +58,53 @@ code {
   color: var(--light-text);
 }
 
-.channelTextArea-1FufC0, .scrollableContainer-15eg7h {
+code.inline {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+code.scrollbarGhostHairline-2LpzZ9 {
+  background: var(--code);
+}
+
+.botTagCozy-3NTBvK {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.timestamp-6-ptG3 {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.footer-5ji8u1 {
+  display: none;
+}
+
+.scrollableContainer-15eg7h:not(.channelTextAreaInner-2_mflx) {
   background-color: var(--message-box);
   border-radius: 30px;
   box-shadow: 0 0 10px 2.5px var(--glow);
+}
+
+.replyBar-1oi75v {
+  background: transparent;
+}
+
+.attachedBars-2BCP3l {
+  background: transparent;
+}
+
+.mentionButton-3C5YMI {
+  color: var(--accent) !important;
+}
+
+.closeIcon-1bRhE8 {
+  color: var(--accent);
+}
+
+.channelTextArea-1FufC0 {
+  background: transparent;
 }
 
 .searchBar-jGtisZ {
@@ -77,6 +120,16 @@ code {
 }
 .searchBar-jGtisZ:hover {
   background: var(--bg-search-click);
+}
+
+.searchFilter-2UfsDk {
+  background: var(--accent) !important;
+  color: var(--dark-text);
+}
+
+.searchAnswer-23w-CH {
+  background: var(--accent) !important;
+  color: var(--dark-text);
 }
 
 [aria-label=Members].content-2a4AW9 {
@@ -156,8 +209,7 @@ code {
 }
 
 .progressBar-2yl2pi {
-  background: rgb(255, 0, 98);
-  background: linear-gradient(90deg, rgb(255, 0, 98) 0%, rgb(255, 0, 183) 100%);
+  background: var(--nitro-gradient);
 }
 
 [aria-label="Image of party popper"] {
@@ -217,14 +269,6 @@ code {
   color: var(--dark-text);
 }
 
-.messageGroupWrapper-1jf_7C {
-  background: var(--inbox-header);
-}
-
-.header-1w9Q93 {
-  background: var(--inbox-header);
-}
-
 .wrapper-2vIMkT {
   background: var(--accent);
 }
@@ -240,6 +284,21 @@ code {
 
 .userPopoutInnerWithoutTheme-3IBtvN {
   background: var(--user-modal);
+}
+
+.badgeList-2aoHPw {
+  margin-left: -35%;
+  margin-top: -5%;
+  border-radius: 20px;
+  background: var(--user-badges);
+}
+
+.topSection-13QKHs {
+  background: var(--user-modal) !important;
+}
+
+.body-1Ukv50 {
+  background: var(--user-modal) !important;
 }
 
 .overlayBackground-1KgwVi {
@@ -292,6 +351,82 @@ code {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
+}
+
+.avatar-3QF_VA {
+  margin-left: 36.25%;
+}
+
+.connectedAccountContainer-3aLMHJ {
+  background: var(--user-connections);
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.scroller-1bVxF5 {
+  background: var(--notifications);
+}
+
+.colorDefault-CDqZdO.focused-3qFvc8 {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+.colorDefault-CDqZdO.focused-3qFvc8 .radioSelection-1UHp0b {
+  color: var(--dark-text) !important;
+}
+.colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE {
+  color: var(--dark-text);
+}
+
+.radioSelection-1UHp0b {
+  color: var(--accent) !important;
+}
+
+.browser-mnQ1T7 {
+  background: var(--threads);
+}
+
+.header-3_zmOb {
+  background: var(--threads-header);
+}
+
+.container-2rzKKA {
+  background: var(--threads-card);
+  border: 0px;
+}
+
+.container-2rzKKA:hover {
+  background: var(--accent);
+}
+.container-2rzKKA:hover .message-content-1024705026725269564 {
+  color: var(--dark-text) !important;
+}
+
+.perksModalContentWrapper-3RHugb {
+  background: var(--bg-guild);
+}
+
+.ctaBar-Nhk8yY {
+  background: var(--bg-server);
+}
+
+.footerSeparator-VzAYwb {
+  background: var(--bg-server);
+}
+
+.lookFilled-1GseHa.select-1Ia3hD {
+  background: transparent;
+}
+
+.inputDefault-3FGxgL {
+  background: transparent;
+}
+
+.imageUploaderInner-IIRaFr {
+  background: transparent;
 }
 
 .scroller-WSmht3 {
@@ -400,11 +535,24 @@ code {
   background: var(--bg-quick);
 }
 
-.contentUnread-1_MVDK {
+.contentDefault-17ewQQ:hover {
   background: var(--accent);
   color: var(--dark-text);
 }
-.contentUnread-1_MVDK .miscContainer-33U-X- {
+.contentDefault-17ewQQ:hover .miscContainer-33U-X- {
+  color: var(--dark-text);
+}
+
+.contentUnread-1_MVDK {
+  background: var(--bg-wtg);
+  border-left: 5px solid var(--accent);
+}
+
+.contentUnread-1_MVDK:hover {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+.contentUnread-1_MVDK:hover .miscContainer-33U-X- {
   color: var(--dark-text);
 }
 
@@ -414,6 +562,23 @@ code {
 
 .note-OhIxFa {
   color: var(--dark-text);
+}
+
+.header-1zd7se {
+  background: var(--add-dm);
+}
+
+.root-g14mjS {
+  background: var(--add-dm);
+}
+
+.inner-1NoIT5 {
+  background: var(--search);
+}
+
+.friendSelected-3cwmD7 {
+  background: var(--accent) !important;
+  color: var(--dark-text) !important;
 }
 
 .anchor-1MIwyf[href="https://support.discord.com"] {
@@ -552,6 +717,18 @@ code {
   display: none;
 }
 
+.forumPost-3i1mpe {
+  background: var(--inbox-message);
+}
+
+.messageGroupWrapper-1jf_7C {
+  background: var(--inbox-header);
+}
+
+.header-1w9Q93 {
+  background: var(--inbox-header);
+}
+
 /*Largely based on Disease's forum redesign, 
 Author:Disease#3749*/
 .container-3YcgdM {
@@ -563,6 +740,11 @@ Author:Disease#3749*/
 }
 
 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
   background: var(--accent);
   color: var(--dark-text);
 }
@@ -691,6 +873,144 @@ Author:Disease#3749*/
   background: var(--forum-tag);
 }
 
+.pill-3pRQlO.selected-24z1Ou {
+  border-color: var(--accent);
+}
+
+.tagsContainer-3rSFH5 .tagsButton-2EKn70 .tagsButtonInner-QgpYNg {
+  color: var(--accent);
+}
+
+.sidebarRegionScroller-FXiQOh {
+  background: var(--setting-sidebar);
+}
+
+.contentRegionScroller-2_GT_N {
+  background: var(--setting);
+}
+
+.accountProfileCard-lbN7n- {
+  background: var(--setting-user);
+}
+
+.background-3d_SjE {
+  background: transparent;
+}
+
+.fieldList-in8WkP {
+  background: transparent;
+}
+
+.userSettingsSecurity-2kODPN .isEnabled-20V6lG {
+  color: var(--accent);
+}
+
+.lockIcon-3t6Ow0 {
+  display: none;
+}
+
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.lookFilled-yCfaCM.colorRed-rQXKgM:hover {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM {
+  border-color: var(--accent);
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM:hover {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.formNotice-2nS8ey {
+  display: none;
+}
+
+.selectedBackground-1t6xXq {
+  background: var(--accent);
+}
+
+.selected-2Uns2B {
+  color: var(--dark-text);
+}
+
+.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.lookFilled-yCfaCM.colorPrimary-2AuQVoL:hover {
+  background: var(--accent) !important;
+  color: var(--dark-text) !important;
+}
+
+.connectContainer-1hylYM {
+  background: var(--setting-user);
+}
+
+.connectionHeader-Ixbb1s {
+  background: var(--setting-user);
+}
+
+.connectionOptionsWrapper-3aVWcp {
+  background: var(--setting-user);
+}
+
+.card-2xlCYc {
+  background: var(--setting-user);
+}
+
+.gemIndicatorProgressCircle-Wb8Ju8 {
+  color: var(--accent);
+}
+
+.gemWithLabel-9XSuaB {
+  color: var(--accent);
+}
+
+.bd-addon-list .bd-addon-header {
+  background: var(--setting-user);
+}
+
+.bd-addon-list .bd-addon-card {
+  background: var(--setting-user);
+}
+
+.bd-link {
+  color: var(--accent) !important;
+}
+
+.bd-controls > .bd-addon-button:first-of-type {
+  background: var(--accent);
+}
+
+.bd-controls > .bd-addon-button:last-of-type {
+  background: var(--accent);
+}
+
+.bd-controls > .bd-addon-button svg {
+  fill: var(--dark-text) !important;
+}
+
+.bd-button {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.bd-addon-views .bd-view-button.selected {
+  background: var(--accent);
+}
+
+.bd-addon-views .bd-view-button.selected svg {
+  fill: var(--dark-text);
+}
+
 :root {
   --home-icon: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- Created with Inkscape (http://www.inkscape.org/) --%3E%3Csvg width='90mm' height='90mm' viewBox='0 0 92.135063 88.961243' version='1.1' id='svg5' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'%3E%3Cdefs id='defs2'%3E%3ClinearGradient id='linearGradient6517'%3E%3Cstop style='stop-color:%23ff0062;stop-opacity:1;' offset='0' id='stop6515' /%3E%3C/linearGradient%3E%3C/defs%3E%3Cg id='layer1' transform='translate(-60.480661,-89.394544)'%3E%3Ccircle style='opacity:1;fill:%23ff0062;fill-opacity:1;stroke:%23be0e0e;stroke-width:0;stroke-dasharray:none;stroke-opacity:1' id='path5812' cx='105.95132' cy='136.74815' r='0.13438042' /%3E%3Cpath id='path12183' style='opacity:1;fill:%23ff0062;fill-opacity:1;stroke-width:0.271521' class='UnoptimicedTransforms' d='m 120.41366,104.06432 c -0.35565,-1.06357 -0.78821,-2.08465 -1.29353,-3.04796 -4.19225,-8.853684 -6.7805,-12.028915 -8.41991,-11.57898 l 5.1e-4,-0.0018 c -0.85494,0.223513 -1.63381,0.727904 -2.18751,1.416587 -0.30985,0.385377 -0.54861,0.827401 -0.70454,1.296618 -0.15558,-0.482684 -0.39831,-0.93745 -0.71612,-1.332733 -0.45279,-0.563181 -1.05639,-1.003315 -1.72884,-1.267209 -0.14197,-0.07874 -0.29052,-0.129514 -0.44862,-0.146562 -0.003,-8.63e-4 -0.007,-0.0018 -0.0101,-0.0027 l 4.8e-4,0.0015 c -0.0485,-0.0048 -0.0976,-0.0076 -0.14769,-0.0063 l -6.5e-4,-3.32e-4 c -1.65041,0.03795 -4.16638,3.355386 -8.078438,11.616331 -1.618684,3.08363 -2.488387,6.75951 -2.491511,10.52805 0.0012,1.98395 0.24321,3.95263 0.714664,5.83004 2.795061,2.2367 5.517945,5.25715 7.730705,9.41268 0.45309,0.73521 0.88894,1.50619 1.29404,2.31372 0.10782,0.04 0.21581,0.0787 0.32433,0.11522 0.29666,-14.08599 0.30658,-14.55185 0.30658,-14.55185 0,0 0.003,-0.024 0.008,-0.0612 -0.68836,-0.0473 -1.22249,-0.61947 -1.22257,-1.30945 8e-5,-0.72509 0.58815,-1.31312 1.31324,-1.31291 0.72489,8e-5 1.31268,0.58786 1.31276,1.31275 -3.2e-4,0.65957 -0.49023,1.21625 -1.14434,1.30096 0.002,0.0234 0.004,0.0417 0.006,0.067 0.10142,1.3525 0.35508,14.02542 0.37161,14.85476 l 0.002,5e-4 0.50862,1.43493 c 0,2e-5 -6.8e-4,0.003 -6.8e-4,0.003 l 1.44278,3.10759 1.06057,-4.17255 0.002,-1.5e-4 c 0,0 2.47944,-13.23433 2.72647,-19.15467 0.003,-0.0614 0.005,-0.10362 0.007,-0.16255 -0.62916,-0.0812 -1.10038,-0.61631 -1.10078,-1.25068 -1e-4,-0.69728 0.56492,-1.26274 1.2622,-1.26264 0.69708,1.8e-4 1.26225,0.56528 1.26215,1.26236 -5.6e-4,0.63841 -0.47792,1.17612 -1.11177,1.25234 l 6.7e-4,0.0405 c 0,0 -0.49294,11.6372 -1.44658,19.09199 l 0.002,-1.5e-4 -0.79678,4.25529 c 0.002,-0.002 0.005,-0.004 0.007,-0.006 0.19287,-0.14143 0.38189,-0.28374 0.569,-0.42613 0.0479,-0.0364 0.0958,-0.0726 0.14333,-0.10906 0.19061,-0.14645 0.37904,-0.29332 0.56371,-0.44071 4.3e-4,-3.4e-4 8.9e-4,-6.3e-4 0.001,-9.7e-4 10e-4,-0.001 0.003,-0.002 0.004,-0.004 0.19724,-0.15749 0.39055,-0.31559 0.58113,-0.47409 0.008,-0.006 0.0155,-0.0126 0.0232,-0.0189 0.006,-0.005 0.012,-0.0105 0.0183,-0.0157 0.18857,-0.15729 0.37431,-0.31493 0.55644,-0.47313 0.004,-0.004 0.009,-0.007 0.0128,-0.0107 0.01,-0.008 0.0187,-0.0166 0.0283,-0.025 0.17766,-0.15479 0.3524,-0.31026 0.52403,-0.46585 0.004,-0.004 0.009,-0.008 0.0135,-0.012 0.003,-0.002 0.005,-0.005 0.008,-0.007 0.17862,-0.1622 0.35396,-0.32474 0.52616,-0.48774 0.004,-0.003 0.007,-0.007 0.0109,-0.0101 0.006,-0.006 0.0117,-0.0115 0.0178,-0.0172 0.16621,-0.1577 0.32961,-0.31544 0.48993,-0.4738 0.006,-0.006 0.0114,-0.0109 0.017,-0.0164 0.003,-0.003 0.005,-0.005 0.008,-0.008 0.16844,-0.16672 0.33364,-0.33383 0.4957,-0.50121 2.7e-4,-2.8e-4 5.5e-4,-5.3e-4 8.2e-4,-8.1e-4 1e-4,-1.1e-4 4e-4,-5e-5 4.9e-4,-1.6e-4 1.0674,-1.19735 2.14466,-2.47166 3.05947,-3.69131 2.1e-4,-3.1e-4 6e-4,-5e-4 8.2e-4,-8.1e-4 7.8e-4,-0.001 10e-4,-0.002 0.002,-0.003 0.25934,-0.36962 0.50612,-0.73938 0.74054,-1.10891 0.11387,-0.1795 0.22499,-0.35872 0.33321,-0.53806 0.004,-0.006 0.007,-0.0117 0.0106,-0.0176 0.003,-0.005 0.006,-0.0107 0.009,-0.0161 0.33087,-0.55005 0.63537,-1.09896 0.91604,-1.64571 0.0929,-0.18097 0.18326,-0.36187 0.27098,-0.54229 0.002,-0.003 0.003,-0.006 0.005,-0.009 0.0891,-0.18346 0.17551,-0.36662 0.25943,-0.54941 0.056,-0.12952 0.11177,-0.25583 0.16376,-0.36727 0.003,-0.007 0.006,-0.014 0.009,-0.021 10e-4,-0.003 0.002,-0.005 0.003,-0.008 0.0942,-0.21395 0.18487,-0.42726 0.27238,-0.64001 0.002,-0.005 0.005,-0.0105 0.007,-0.0158 0.002,-0.005 0.004,-0.01 0.006,-0.015 0.0884,-0.2155 0.17335,-0.43061 0.25509,-0.64472 0.082,-0.21471 0.16036,-0.42861 0.23595,-0.64175 0.002,-0.004 0.003,-0.009 0.005,-0.013 0.001,-0.004 0.003,-0.008 0.004,-0.0122 0.0744,-0.2103 0.14569,-0.42009 0.21412,-0.62869 0.001,-0.003 0.002,-0.006 0.003,-0.009 8.6e-4,-0.003 0.001,-0.005 0.002,-0.008 0.0695,-0.21242 0.13626,-0.42337 0.19993,-0.63386 1.8e-4,-5.9e-4 3.3e-4,-0.001 5.1e-4,-0.002 1.4e-4,-4.6e-4 5.2e-4,-8.4e-4 6.6e-4,-10e-4 0.0645,-0.21319 0.12553,-0.42588 0.18427,-0.63692 0.0549,-0.19733 0.10743,-0.39328 0.15759,-0.58858 0.006,-0.0249 0.0129,-0.0498 0.0192,-0.0747 0.05,-0.19657 0.0976,-0.39224 0.14303,-0.58658 3.7e-4,-0.002 8.1e-4,-0.003 0.001,-0.005 5e-5,-2.2e-4 2.9e-4,-4.2e-4 3.3e-4,-6.5e-4 0.30857,-1.5376 0.4695,-3.12894 0.47098,-4.73625 -0.002,-2.58941 -0.41343,-5.13506 -1.19587,-7.47492 z' transform='rotate(-72,105.94563,136.75164)' /%3E%3Cpath id='path14890' style='opacity:1;fill:%23ff0062;fill-opacity:1;stroke-width:0.271521' class='UnoptimicedTransforms' d='m 108.8089,135.05943 c 1.15307,-1.19843 7.46484,-7.42701 9.59593,-11.37927 0.48148,-0.89293 0.85667,-1.96953 1.15467,-2.51118 1.33711,-2.89339 2.04664,-6.22749 2.04978,-9.62955 -0.003,-3.76641 -0.87172,-7.44043 -2.48874,-10.52301 -4.19224,-8.853698 -6.7809,-12.028955 -8.42031,-11.579018 l 6.5e-4,-0.0017 c -0.85494,0.223513 -1.63402,0.727684 -2.18772,1.41637 -0.30985,0.385379 -0.54856,0.827651 -0.70449,1.296868 -0.15558,-0.482687 -0.39822,-0.937522 -0.71603,-1.332805 -0.45279,-0.56318 -1.0562,-1.003248 -1.72865,-1.267141 -0.14197,-0.07874 -0.29107,-0.129935 -0.44917,-0.146983 -0.003,-8.63e-4 -0.007,-0.0014 -0.01,-0.0023 l 5e-4,0.0016 c -0.0485,-0.0048 -0.0976,-0.0076 -0.14772,-0.0064 l -7.2e-4,-1.14e-4 c -1.65041,0.03795 -4.16603,3.354994 -8.078095,11.615963 -1.618686,3.08363 -2.488642,6.75958 -2.491766,10.52812 0.0012,1.99002 0.244808,3.96461 0.719117,5.8472 2.761517,2.21196 5.452364,5.18845 7.649434,9.27044 0.48088,0.7724 0.94294,1.58585 1.371,2.43914 0.10782,0.04 0.21596,0.0778 0.32448,0.11429 0.29666,-14.08601 0.30653,-14.55128 0.30653,-14.55128 0,0 0.003,-0.0241 0.008,-0.0613 -0.68836,-0.0473 -1.22237,-0.61981 -1.22245,-1.30979 8e-5,-0.72509 0.58783,-1.31244 1.31292,-1.31223 0.72488,8e-5 1.31256,0.58772 1.31264,1.31261 -3.2e-4,0.65957 -0.49014,1.21613 -1.14425,1.30084 0.002,0.0234 0.004,0.0419 0.006,0.0672 0.10142,1.3525 0.35516,14.02507 0.37169,14.85441 l 0.002,6.4e-4 0.50858,1.43499 c 0,2e-5 -4.6e-4,0.003 -4.6e-4,0.003 l 1.44271,3.10756 1.06041,-4.17245 0.002,-8e-5 c 0,0 2.4797,-13.23431 2.72673,-19.15467 0.003,-0.0614 0.005,-0.10345 0.007,-0.16238 -0.62916,-0.0812 -1.10077,-0.61663 -1.10117,-1.251 -1e-4,-0.69728 0.56557,-1.26255 1.26285,-1.26245 0.69708,1.8e-4 1.26152,0.56525 1.26142,1.26232 -5.6e-4,0.63841 -0.47752,1.17582 -1.11137,1.25204 l 5.2e-4,0.0411 c 0,0 -0.4927,11.63703 -1.44633,19.09184 l 0.002,-7e-5 -0.94308,5.03639 c -0.003,0.008 -0.005,0.017 -0.008,0.025 -0.0418,0.20466 -0.0561,0.28416 -0.0586,0.29742 z' transform='rotate(-144,105.94564,136.75163)' /%3E%3Cpath id='path14903' style='opacity:1;fill:%23ff0062;fill-opacity:1;stroke-width:0.271521' class='UnoptimicedTransforms' d='m 107.15468,134.05654 1.06022,-4.17239 0.002,-3.5e-4 c 0,0 2.47944,-13.23452 2.72647,-19.15489 0.003,-0.0614 0.005,-0.10315 0.007,-0.16208 -0.62916,-0.0812 -1.10083,-0.61668 -1.10123,-1.25105 -1e-4,-0.69728 0.56559,-1.26265 1.26287,-1.26255 0.69708,1.8e-4 1.26181,0.56518 1.26171,1.26226 -5.6e-4,0.63841 -0.47784,1.17607 -1.11169,1.25229 l 9.3e-4,0.0409 c 0,0 -0.4931,11.63723 -1.44674,19.09205 l 0.002,-3.5e-4 -0.7953,4.24735 c 1.83562,-1.347 3.4083,-2.73858 4.75759,-4.15164 0.93868,-1.05808 1.88015,-2.17122 2.70573,-3.25024 2.64605,-3.67631 4.0081,-7.37696 4.73652,-10.71291 0.25313,-1.39959 0.38486,-2.84004 0.3862,-4.29354 -0.003,-3.76641 -0.87208,-7.4404 -2.4891,-10.52299 -4.19223,-8.853681 -6.78099,-12.029071 -8.4204,-11.579135 l 5e-4,-0.0016 c -0.85494,0.223513 -1.63339,0.727648 -2.18709,1.416332 -0.30985,0.38538 -0.54846,0.827338 -0.70439,1.296553 -0.15558,-0.482685 -0.399,-0.937368 -0.71681,-1.332651 -0.45279,-0.563181 -1.05582,-1.003268 -1.72827,-1.267162 -0.14197,-0.07874 -0.29097,-0.129733 -0.44907,-0.146781 -0.003,-8.63e-4 -0.007,-0.0019 -0.0101,-0.0028 l 6.4e-4,0.0017 c -0.0485,-0.0048 -0.0977,-0.007 -0.14779,-0.0058 l -8.4e-4,-6.07e-4 c -1.65041,0.03795 -4.16606,3.35524 -8.078126,11.616191 -1.618685,3.08363 -2.48884,6.75981 -2.491964,10.52833 0.0012,1.99233 0.245936,3.96873 0.721363,5.85324 2.730048,2.18911 5.389667,5.127 7.571447,9.14125 0.50841,0.80855 0.99615,1.66346 1.44683,2.56184 0.10782,0.04 0.21604,0.0786 0.32456,0.11508 0.29666,-14.08598 0.30641,-14.5518 0.30641,-14.5518 0,0 0.003,-0.024 0.008,-0.0612 -0.68836,-0.0473 -1.22256,-0.6199 -1.22264,-1.30988 8e-5,-0.72509 0.58797,-1.31251 1.31306,-1.3123 0.72489,8e-5 1.31253,0.58776 1.31261,1.31265 -3.2e-4,0.65955 -0.48981,1.21634 -1.14392,1.30105 0.002,0.0234 0.004,0.0415 0.006,0.0668 0.10142,1.3525 0.35507,14.02536 0.3716,14.8547 l 0.002,8e-4 0.50842,1.43483 c 0,2e-5 -2.6e-4,0.003 -2.6e-4,0.003 z' transform='rotate(144,105.94564,136.75162)' /%3E%3Cpath id='path14905' style='opacity:1;fill:%23ff0062;fill-opacity:1;stroke-width:0.271521' class='UnoptimicedTransforms' d='m 95.384213,104.05979 c -0.783216,2.34093 -1.195158,4.88848 -1.197305,7.47934 0.0012,1.98737 0.244248,3.95916 0.717293,5.83943 2.753203,2.20695 5.435499,5.17443 7.627989,9.24004 0.48937,0.78361 0.9591,1.60978 1.39415,2.47699 0.10782,0.04 0.21608,0.0782 0.3246,0.11471 0.29666,-14.086 0.30626,-14.5516 0.30626,-14.5516 0,0 0.003,-0.0243 0.008,-0.0615 -0.68836,-0.0473 -1.22244,-0.61954 -1.22252,-1.30952 8e-5,-0.72509 0.58816,-1.3128 1.31325,-1.31259 0.72489,8e-5 1.31217,0.58771 1.31225,1.3126 -3.2e-4,0.65957 -0.48975,1.21663 -1.14386,1.30134 0.002,0.0234 0.004,0.0413 0.006,0.0666 0.10142,1.3525 0.3551,14.02566 0.37163,14.855 l 0.002,6.4e-4 0.50851,1.43505 c 0,2e-5 -8e-4,0.002 -8e-4,0.002 l 1.44306,3.10742 1.06013,-4.17248 0.002,1.5e-4 c 0,0 2.47966,-13.23437 2.72669,-19.15472 0.003,-0.0614 0.005,-0.10356 0.007,-0.16249 -0.62916,-0.0812 -1.09992,-0.61643 -1.10032,-1.2508 -10e-5,-0.69728 0.56487,-1.26246 1.26215,-1.26236 0.69708,1.8e-4 1.26197,0.56491 1.26187,1.26199 -5.6e-4,0.63841 -0.47771,1.17585 -1.11156,1.25207 l 8e-4,0.041 c 0,0 -0.49313,11.63709 -1.44677,19.09189 l 0.002,1.5e-4 -0.79296,4.23484 c 1.91406,-1.40474 3.54156,-2.85825 4.92853,-4.33373 0.83471,-0.94689 1.66514,-1.93376 2.40922,-2.89628 2.74161,-3.75177 4.13455,-7.53548 4.87121,-10.93676 0.24553,-1.37935 0.37365,-2.79818 0.37497,-4.22937 -0.003,-3.76641 -0.87233,-7.44041 -2.48935,-10.523 -4.19223,-8.853687 -6.78096,-12.02903 -8.42035,-11.579094 l 4.7e-4,-0.0015 c -0.85492,0.223511 -1.63338,0.727937 -2.18708,1.416621 -0.30985,0.38538 -0.54837,0.827149 -0.7043,1.296364 -0.15558,-0.482685 -0.39844,-0.9372 -0.71625,-1.332481 -0.45279,-0.563181 -1.05603,-1.003543 -1.72848,-1.267437 -0.14197,-0.07874 -0.29143,-0.129559 -0.44953,-0.146607 -0.003,-8.63e-4 -0.007,-0.0018 -0.01,-0.0027 l 5e-4,0.0018 c -0.0485,-0.0048 -0.0974,-0.0073 -0.14745,-0.0061 l -8.2e-4,-8.11e-4 c -1.65041,0.03795 -4.16634,3.355624 -8.0784,11.616585 -0.505838,0.96363 -0.938339,1.98472 -1.294347,3.04878 z' transform='rotate(72,105.94564,136.75161)' /%3E%3Cpath id='path14907' style='opacity:1;fill:%23ff0062;fill-opacity:1;stroke-width:0.271521' class='UnoptimicedTransforms' d='m 104.75693,89.394543 c -1.65041,0.03795 -4.166,3.355382 -8.078061,11.616347 -1.618683,3.08363 -2.488713,6.7595 -2.491837,10.52804 0.0012,1.98218 0.243028,3.94907 0.713651,5.82497 2.790172,2.23381 5.507787,5.24894 7.717877,9.39477 0.45815,0.74203 0.89864,1.52094 1.30793,2.33681 0.10782,0.04 0.21601,0.0782 0.32453,0.11472 0.29666,-14.08598 0.30644,-14.55157 0.30644,-14.55157 0,0 0.003,-0.0243 0.008,-0.0615 -0.68836,-0.0473 -1.22258,-0.6195 -1.22266,-1.30948 8e-5,-0.72509 0.588,-1.31279 1.31309,-1.31258 0.72489,8e-5 1.3125,0.58769 1.31258,1.31258 -3.2e-4,0.65957 -0.49,1.2165 -1.14411,1.30121 0.002,0.0234 0.004,0.0414 0.006,0.0667 0.10142,1.3525 0.35502,14.02557 0.37155,14.85491 l 0.002,5.2e-4 0.5085,1.43505 c 0,2e-5 -5.2e-4,0.003 -5.2e-4,0.003 l 1.44281,3.10731 1.0604,-4.17236 h 0.002 c 0,0 2.47942,-13.23455 2.72645,-19.1549 0.003,-0.0614 0.005,-0.10334 0.007,-0.16227 -0.62916,-0.0812 -1.10031,-0.61671 -1.10071,-1.25108 -1e-4,-0.69728 0.56518,-1.26256 1.26246,-1.26246 0.69708,1.8e-4 1.26204,0.56538 1.26194,1.26246 -5.6e-4,0.63841 -0.47773,1.1759 -1.11156,1.25212 l 5.1e-4,0.0408 c 0,0 -0.49278,11.63706 -1.44642,19.09186 h 0.002 l -0.79375,4.23902 c 1.85373,-1.35958 3.44022,-2.76474 4.79867,-4.19148 0.92348,-1.04255 1.84841,-2.13722 2.66082,-3.19877 2.59138,-3.59473 3.95528,-7.2141 4.69739,-10.4929 0.2804,-1.46949 0.42646,-2.986 0.42788,-4.51704 -0.003,-3.76639 -0.87224,-7.44028 -2.48926,-10.52287 -4.19223,-8.853681 -6.78076,-12.029073 -8.42015,-11.579135 l 5.1e-4,-0.0015 c -0.85494,0.223511 -1.63376,0.727765 -2.18746,1.416451 -0.30985,0.385378 -0.54842,0.827346 -0.70435,1.296561 -0.15558,-0.482685 -0.39843,-0.937452 -0.71624,-1.332735 -0.45279,-0.563179 -1.05612,-1.003212 -1.72857,-1.267106 -0.14197,-0.07874 -0.29097,-0.129713 -0.44907,-0.146761 -0.003,-8.63e-4 -0.007,-0.0017 -0.0103,-0.0026 l 5.2e-4,0.0016 c -0.0485,-0.0048 -0.0977,-0.0074 -0.14779,-0.0062 z' transform='translate(-1.5812935e-5)' /%3E%3C/g%3E%3C/svg%3E%0A");
 } /* Dusk To Dawn Settings
@@ -708,7 +1028,7 @@ Source: https://github.com/Asteria5675/BetterDiscordThemes/blob/master/SourceCod
 }
 
 .layers-OrUESM > .layer-86YKbF:first-child {
-  opacity: 0.8 !important;
+  opacity: 1 !important;
   transform: none !important;
 }
 
@@ -755,7 +1075,7 @@ Authour: LuckFire#4800
   --selected-bg: var(--accent);
   --selected-bg-hover: var(--accent);
   --hovered-bg: var(--accent);
-  --bg-rounding: 2px;
+  --bg-rounding: 4px;
   --indicators-border-info: 4px solid;
 }
 
@@ -824,6 +1144,10 @@ Authour: LuckFire#4800
   background: var(--selected-bg);
   border-radius: var(--bg-rounding);
 }
+.modeSelected-3DmyhH .text-xs-medium-2LRpEj,
+.channel-1Shao0.selected-1-Z6gm .text-xs-medium-2LRpEj {
+  color: var(--dark-text) !important;
+}
 
 .modeSelected-3DmyhH:hover,
 .channel-1Shao0.selected-1-Z6gm:hover {
@@ -836,7 +1160,7 @@ Authour: LuckFire#4800
 }
 
 .modeUnread-3Cxepe {
-  background: var(--unread-bg);
+  background: var(--forum-card);
   border-radius: var(--bg-rounding);
 }
 .modeUnread-3Cxepe .name-28HaxV {
@@ -872,6 +1196,11 @@ Authour: LuckFire#4800
 .wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH) .channelName-3KPsGw,
 .channel-1Shao0.container-1oeRFJ:hover:not(.selected-1-Z6gm) .channelName-3KPsGw {
   color: var(--dark-text);
+}
+.modeUnread-3Cxepe:hover .text-xs-medium-2LRpEj,
+.wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH) .text-xs-medium-2LRpEj,
+.channel-1Shao0.container-1oeRFJ:hover:not(.selected-1-Z6gm) .text-xs-medium-2LRpEj {
+  color: var(--dark-text) !important;
 }
 
 .channel-1Shao0.container-1oeRFJ {
@@ -1077,4 +1406,161 @@ Author:Disease#3749
   margin: 0;
 }
 
-/*# sourceMappingURL=sakuradite.theme.css.map */
+/*Based on Lavender-Discord's vertical user actions
+Author: Obscure-Git
+Github: https://github.com/Obscure-Git
+Source: https://raw.githubusercontent.com/Lavender-Discord/Lavender/main/design/user-actions/vertical.css
+*/
+:root {
+  --ua-btn-gap: 8px;
+  --ua-btn-height: 40px;
+  --ua-btn-width: 40px;
+  --ua-btn-radius: 50%;
+}
+
+/* Server list height */
+.wrapper-1_HaEi {
+  margin-bottom: 157.5px;
+}
+
+.wrapper-1_HaEi .scroller-3X7KbA {
+  padding-bottom: 20px;
+}
+
+.panels-3wFtMD .container-YkUktl:last-child {
+  height: 40px;
+  padding-bottom: 5px;
+}
+
+/* Buttons */
+.panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
+  position: fixed;
+  display: flex;
+  border-radius: var(--radius-secondary);
+  flex-direction: column;
+  align-items: center;
+  bottom: 0px;
+  left: 0px;
+  width: var(--sl-width, 70px);
+  padding-bottom: 12px;
+  margin: 0px;
+  grid-gap: var(--ua-btn-gap);
+  background: var(--bg-server);
+}
+
+.panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF::before {
+  content: "";
+  width: 32px;
+  height: 1px;
+  margin-bottom: 0px;
+  background: var(--accent);
+}
+
+/* Buttons */
+.panels-3wFtMD > .container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur {
+  background: var(--background-secondary-alt);
+  border-radius: var(--ua-btn-radius);
+  width: var(--ua-btn-width);
+  height: var(--ua-btn-height);
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s linear;
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.panels-3wFtMD > .container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur::before {
+  content: "";
+  background-color: var(--accent-primary);
+  position: absolute;
+  left: -20px;
+  top: 32.5%;
+  height: 35%;
+  width: 4px;
+  border-radius: 15px;
+  transition: 0.3s ease;
+  opacity: 0;
+}
+
+.panels-3wFtMD > .container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:hover::before {
+  left: -14px;
+  opacity: 1;
+}
+
+.panels-3wFtMD > .container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:active::before {
+  height: 45%;
+  top: 27.5%;
+}
+
+.panels-3wFtMD > .container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:hover {
+  background: var(--accent-primary);
+  border-radius: var(--radius-primary);
+  color: var(--light-text) !important;
+}
+
+/* Remove Game Activity */
+.panels-3wFtMD > .container-YkUktl:last-child .button-12Fmur:nth-last-child(4) {
+  display: none;
+}
+
+/* The pill animation, remove this part if u dont like it */
+.container-YkUktl:last-child {
+  background-color: var(--bg-server);
+  height: 100px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--cl-width) - 28px);
+  height: 100%;
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt {
+  border-radius: var(--radius-secondary) !important;
+  transition: all 125ms linear;
+  cursor: pointer;
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt::before,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L::before {
+  content: "";
+  transition: 125ms linear;
+  position: absolute;
+  height: 40%;
+  width: 0px;
+  top: 30%;
+  left: 2px;
+  opacity: 0;
+  border-radius: 5px;
+  background-color: var(--accent-primary);
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L:hover,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt:hover,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L[aria-expanded=true],
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt[aria-expanded=true] {
+  background-color: var(--accent);
+  padding-left: 20px;
+  color: black;
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L:hover::before,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt:hover::before,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L[aria-expanded=true]::before,
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt[aria-expanded=true]::before {
+  left: 10px;
+  width: 3px;
+  opacity: 1;
+}
+
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt[aria-expanded=true],
+.container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L[aria-expanded=true] {
+  background-color: var(--bg-server);
+}
+
+/*# sourceMappingURL=sakuradite.css.map */

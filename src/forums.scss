@@ -14,6 +14,11 @@ Author:Disease#3749*/
     color: var(--dark-text);
 }
 
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+    background: var(--accent);
+    color: var(--dark-text);
+}
+
 .buttonInner-3aRbcx{
     background: var(--bg-forum);
     color: var(--light-text)
@@ -133,6 +138,15 @@ Author:Disease#3749*/
 .option-2eIyOn[aria-selected=true]:not(.option-2eIyOn.multi-1HXDiv){
     background: var(--forum-tag);
 }
+
 .popout-1KHNAq {
     background: var(--forum-tag);
+}
+
+.pill-3pRQlO.selected-24z1Ou {
+    border-color: var(--accent);
+}
+
+.tagsContainer-3rSFH5 .tagsButton-2EKn70 .tagsButtonInner-QgpYNg {
+    color: var(--accent)
 }

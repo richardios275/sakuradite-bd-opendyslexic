@@ -102,9 +102,22 @@
     background: var(--bg-quick);
 }
 
-.contentUnread-1_MVDK {
+.contentDefault-17ewQQ:hover {
     background: var(--accent);
     color: var(--dark-text);
+    .miscContainer-33U-X-{
+        color: var(--dark-text);
+    }
+}
+.contentUnread-1_MVDK {
+    background: var(--bg-wtg);
+    border-left: 5px solid var(--accent);
+}
+
+.contentUnread-1_MVDK:hover {
+    background: var(--accent);
+    color: var(--dark-text);
+    
     .miscContainer-33U-X-{
         color: var(--dark-text);
     }
@@ -116,4 +129,21 @@
 
 .note-OhIxFa{
     color: var(--dark-text);
+}
+
+.header-1zd7se{
+    background: var(--add-dm)
+}
+
+.root-g14mjS{
+    background: var(--add-dm)
+}
+
+.inner-1NoIT5 {
+    background: var(--search);
+}
+
+.friendSelected-3cwmD7 {
+    background: var(--accent) !important;
+    color: var(--dark-text) !important; 
 }

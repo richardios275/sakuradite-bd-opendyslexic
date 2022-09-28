@@ -4,71 +4,84 @@
  * @authorId 196392067281321985
  * @description Cherry discord theme based on the sakuradite color scheme
  * @source https://github.com/azzzertyy/sakuradite
- * @version 0.5
+ * @version 1.0
  */
 
-
  @import url("https://azzzertyy.github.io/sakuradite/sakuradite.css"); 
-
- :root {
-  --accent: #ff0062;
-  --channel-icon: var(--accent);
-  --glow: #ff0062aa;
-  --bg-server: #172125;
-  --bg-button: #172125;
-  --bg-button-hover: #121a1d;
-  --bg-toolbar: #1a262b;
-  --bg-search: #121a1d;
-  --bg-search-click: #212b31;
-  --bg-channel: #172125;
-  --bg-channel-name: #1a262b;
-  --bg-unread: #212b31;
-  --bg-guild: #121a1d;
-  --message-box: #172125;
-  --bg-text-modal: #1a262b;
-  --bg-member: #172125;
-  --bg-friend-toolbar: #1a262b;
-  --bg-friends: #172125;
-  --bg-friends-search: #1a262b;
-  --bg-friends-list: #121a1d;
-  --bg-friend-selected: #ff0062;
-  --bg-activity: #172125;
-  --bg-activity-modal: #121a1d;
-  --message-box-addition: #172125;
-  --search-modal: #1a262b;
-  --search-modal-header: #1a262b;
-  --search-modal-result: #121a1d;
-  --inbox-header: #1a262b;
-  --inbox-message: #121a1d;
-  --bg-quick: #172125;
-  --bg-forum: #121a1d;
-  --forum-divider: #1a262b;
-  --forum-card: #1a262b;
-  --forum-tag: #121a1d;
-  --user-modal: #172125;
-  --light-text: #ffeff5;
-  --dark-text: #212b31;
-  /* Activity Colors */
-  --activity-bg: #ff80ea;
-  --spotify-bg: #1bf3a0;
-  --twitch-bg: #7929cc;
-  --bot-bg: #9733ff;
-  --xbox-bg: #17cc86;
-}    
-/*Toolbar Button Colors */
-.toolbar-3_r2xA .iconWrapper-2awDjA {
-  --interactive-muted: #a09699;
-  --interactive-normal: #ffeff5;
-  --interactive-hover: #c9004d;
-  --interactive-active: var(--accent);
-}
-   
-/*Channel Buttons */
-.name-28HaxV {
-  --interactive-normal: #ff004c;
-  --interactive-muted: #a09699;
-  --interactive-hover: var(--dark-text) !important;
-  --interactive-active: var(--dark-text);
-}
  
+  :root {
+   --accent: #ff0062;
+   --channel-icon: var(--accent);
+   --glow: #ff0062aa;
+   --bg-server: #172125;
+   --bg-button: #172125;
+   --bg-button-hover: #121a1d;
+   --bg-toolbar: #1a262b;
+   --bg-search: #121a1d;
+   --bg-search-click: #212b31;
+   --bg-channel: #172125;
+   --bg-channel-name: #1a262b;
+   --bg-unread: #212b31;
+   --bg-guild: #121a1d;
+   --message-box: #172125;
+   --code: #1a262b;
+   --bg-text-modal: #1a262b;
+   --bg-member: #172125;
+   --bg-friend-toolbar: #1a262b;
+   --bg-friends: #172125;
+   --bg-friends-search: #1a262b;
+   --bg-friends-list: #121a1d;
+   --bg-friend-selected: #ff0062;
+   --bg-activity: #172125;
+   --bg-activity-modal: #121a1d;
+   --add-dm: #1a262b;
+   --message-box-addition: #172125;
+   --search-modal: #1a262b;
+   --search-modal-header: #1a262b;
+   --search-modal-result: #121a1d;
+   --inbox-header: #1a262b;
+   --inbox-message: #121a1d;
+   --bg-quick: #172125;
+   --bg-wtg: #212b31;
+   --notifications: #121a1d;
+   --bg-forum: #121a1d;
+   --forum-divider: #1a262b;
+   --forum-card: #1a262b;
+   --forum-tag: #121a1d;
+   --user-modal: #172125;
+   --user-badges: #121a1d;
+   --user-connections: #121a1d;
+   --light-text: #ffeff5;
+   --dark-text: #212b31;
+   --threads: #121a1d;
+   --threads-header:#1a262b;
+   --threads-card: #1a262b;
+   --setting: #121a1d;
+   --setting-sidebar: #172125;
+   --setting-user: #1a262b;
+   --nitro-gradient: linear-gradient(90deg, rgba(255,0,98,1) 0%, rgba(255,0,183,1) 100%);
    
+   /* Activity Colors */
+   --activity-bg: #ff80ea;
+   --spotify-bg: #1bf3a0;
+   --twitch-bg: #7929cc;
+   --bot-bg: #9733ff;
+   --xbox-bg: #17cc86;
+ }    
+ /*Toolbar Button Colors */
+ .toolbar-3_r2xA .iconWrapper-2awDjA {
+   --interactive-muted: #a09699;
+   --interactive-normal: #ffeff5;
+   --interactive-hover: #c9004d;
+   --interactive-active: var(--accent);
+ }
+    
+ /*Channel Buttons */
+ .name-28HaxV {
+   --interactive-normal: #ff004c;
+   --interactive-muted: #a09699;
+   --interactive-hover: var(--dark-text) !important;
+   --interactive-active: var(--dark-text);
+ }
+  
+    

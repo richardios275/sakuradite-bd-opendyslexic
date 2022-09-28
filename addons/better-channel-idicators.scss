@@ -1,6 +1,7 @@
 /* Better Channel Indicators
 Authour: LuckFire#4800
 */
+
 :root {
 	/* better channel indicators variables */
 	--unread-badge: var(--accent);
@@ -9,7 +10,7 @@ Authour: LuckFire#4800
 	--selected-bg: var(--accent);
 	--selected-bg-hover: var(--accent);
 	--hovered-bg: var(--accent);
-	--bg-rounding: 2px;
+	--bg-rounding: 4px;
 	--indicators-border-info: 4px solid;
   
 }
@@ -74,6 +75,9 @@ Authour: LuckFire#4800
 .channel-1Shao0.selected-1-Z6gm {
   background: var(--selected-bg);
   border-radius: var(--bg-rounding);
+  .text-xs-medium-2LRpEj{
+    color: var(--dark-text) !important;
+  }
 }
 .modeSelected-3DmyhH:hover,
 .channel-1Shao0.selected-1-Z6gm:hover {
@@ -85,7 +89,7 @@ Authour: LuckFire#4800
 }
 
 .modeUnread-3Cxepe {
-  background: var(--unread-bg);
+  background: var(--forum-card);
   border-radius: var(--bg-rounding);
 
   .name-28HaxV {
@@ -117,6 +121,9 @@ Authour: LuckFire#4800
   .channelName-3KPsGw {
     color: var(--dark-text);
   }
+  .text-xs-medium-2LRpEj{
+    color: var(--dark-text) !important;
+  }
 }
 
 .channel-1Shao0.container-1oeRFJ {
@@ -126,3 +133,4 @@ Authour: LuckFire#4800
 #private-channels > div > .channel-1Shao0 > div > .avatar-6qzftW {
   margin-left: 4px;
 }
+
