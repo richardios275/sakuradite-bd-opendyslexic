@@ -1,13 +1,10 @@
-$accent: var(--accent);
-$background2: rgb(0,0,0);
-
 //Add server button
 .guilds-2JjMmN .circleIcon-3489FI {
-  color: $accent !important;
+  color: var(--accent) !important;
 }
 //Guild Separator
 .guildSeparator-a4uisj {
-  background: $accent;
+  background: var(--accent);
 }
 
 //Channel List
@@ -33,11 +30,38 @@ $background2: rgb(0,0,0);
   background: var(--bg-channel);
 }
 
+.clickable-28SzVr:hover .layout-1qmrhw {
+  background: var(--accent);
+  .username-u-ebrn {
+    color: var(--dark-text) !important;
+  }
+}
+
+.selected-1-Z6gm .layout-1qmrhw{
+  background: var(--accent);
+  .username-u-ebrn {
+    color: var(--dark-text) !important;
+  }
+}
+
+.mention-3XBnnZ {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.layout-1qmrhw {
+  background: var(--bg-member);
+}
+
+.member-2gU6Ar {
+  background: rgba(0,0,0,0);
+}
+
 //Toolbar Border
 .title-31SJ6t {
  border: solid;
  border-width: 0 0 2px 0;
- border-color: $accent; 
+ border-color: var(--accent); 
 }
 
 //Toolbar Background
@@ -114,7 +138,7 @@ code.scrollbarGhostHairline-2LpzZ9 {
   border: solid;
   border-width: 0 0 2px 0;
   border-radius: 0px;
-  border-color: $accent;
+  border-color: var(--accent);
   transition: border 0.5s linear;
   background: var(--bg-search);
   &:focus-within {
@@ -155,26 +179,26 @@ code.scrollbarGhostHairline-2LpzZ9 {
 
 //Mentioned Highlight color
 .mentioned-Tre-dv {
-  background: rgba($accent, 0.1) !important;
+  background: rgba(var(--accent), 0.1) !important;
   &:before {
-    background: $accent !important;
+    background: var(--accent) !important;
   }
   &:hover {
-    background: rgba($accent, 0.2) !important;
+    background: rgba(var(--accent), 0.2) !important;
   }
 }
 .numberBadge-37OJ3S.base-3IDx3L {
-  background-color: $accent !important;
+  background-color: var(--accent) !important;
 }
 
 //Reply highlight color
 .replying-eZ7p5z {
-  background: rgba($accent, 0.1) !important;
+  background: rgba(var(--accent), 0.1) !important;
   &:before {
-    background-color: $accent !important;
+    background-color: var(--accent) !important;
   }
   &::hover {
-    background: rgba($accent, 0.2) !important;
+    background: rgba(var(--accent), 0.2) !important;
   }
 }
 
@@ -219,6 +243,10 @@ code.scrollbarGhostHairline-2LpzZ9 {
 
 //Nitro progress bar
 .progressBar-2yl2pi {
+  background: var(--nitro-gradient);
+}
+
+.container-2giAcK:hover .progressBar-2yl2pi {
   background: var(--nitro-gradient);
 }
 
@@ -434,4 +462,53 @@ code.scrollbarGhostHairline-2LpzZ9 {
 
 .imageUploaderInner-IIRaFr{
   background: transparent
+}
+
+.userProfileInnerThemedNonPremium-1gT-zY{
+  background: var(--user-modal);
+}
+
+.communityInfoPill-2Mll66{
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.radioBar-3w9XY- {
+  background: var(--user-modal);
+}
+
+.container-3zZkKh{
+  display: none;
+}
+.inputDefault-3FGxgL{
+  background: var(--user-modal);
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled{
+  background: var(--accent);
+}
+
+.lookFilled-yCfaCM.colorPrimary-2AuQVo:hover{
+  background: var(--accent);
+}
+
+//the loading screen
+.wrapper-3HVHpV {
+  background: var(--bg-guild);
+}
+
+.avatar-l9Txm5{
+  background: var(--accent);
+}
+
+.cozy-3hKWhq .blob-1uHjdp{
+  background: var(--accent);
+}
+
+.cozy-3hKWhq.wrapper-15CKyy{
+  background: transparent;
+}
+
+.attachment-1PZZB2 {
+  background: transparent;
 }

@@ -1,4 +1,4 @@
-@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter&display=swap");
 ::-webkit-input-placeholder, body, button, input, select, textarea {
   font-family: "Inter", sans-serif;
 }
@@ -34,6 +34,33 @@ code {
 
 .expandedFolderIconWrapper-3RwQpD {
   background: var(--bg-channel);
+}
+
+.clickable-28SzVr:hover .layout-1qmrhw {
+  background: var(--accent);
+}
+.clickable-28SzVr:hover .layout-1qmrhw .username-u-ebrn {
+  color: var(--dark-text) !important;
+}
+
+.selected-1-Z6gm .layout-1qmrhw {
+  background: var(--accent);
+}
+.selected-1-Z6gm .layout-1qmrhw .username-u-ebrn {
+  color: var(--dark-text) !important;
+}
+
+.mention-3XBnnZ {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.layout-1qmrhw {
+  background: var(--bg-member);
+}
+
+.member-2gU6Ar {
+  background: rgba(0, 0, 0, 0);
 }
 
 .title-31SJ6t {
@@ -209,6 +236,10 @@ code.scrollbarGhostHairline-2LpzZ9 {
 }
 
 .progressBar-2yl2pi {
+  background: var(--nitro-gradient);
+}
+
+.container-2giAcK:hover .progressBar-2yl2pi {
   background: var(--nitro-gradient);
 }
 
@@ -426,6 +457,55 @@ code.scrollbarGhostHairline-2LpzZ9 {
 }
 
 .imageUploaderInner-IIRaFr {
+  background: transparent;
+}
+
+.userProfileInnerThemedNonPremium-1gT-zY {
+  background: var(--user-modal);
+}
+
+.communityInfoPill-2Mll66 {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.radioBar-3w9XY- {
+  background: var(--user-modal);
+}
+
+.container-3zZkKh {
+  display: none;
+}
+
+.inputDefault-3FGxgL {
+  background: var(--user-modal);
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
+  background: var(--accent);
+}
+
+.lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+  background: var(--accent);
+}
+
+.wrapper-3HVHpV {
+  background: var(--bg-guild);
+}
+
+.avatar-l9Txm5 {
+  background: var(--accent);
+}
+
+.cozy-3hKWhq .blob-1uHjdp {
+  background: var(--accent);
+}
+
+.cozy-3hKWhq.wrapper-15CKyy {
+  background: transparent;
+}
+
+.attachment-1PZZB2 {
   background: transparent;
 }
 
@@ -659,14 +739,12 @@ code.scrollbarGhostHairline-2LpzZ9 {
   transform: translatey( -100% );
   }
 */
-.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0) {
-  border: solid;
-  border-width: 0 4px 0 4px;
-  transition: border 0.1s linear;
+.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0):hover {
+  color: var(--dark-text);
 }
 
-.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0):hover {
-  border-width: 0 6px 0 6px;
+.role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0) {
+  background: var(--bg-role);
 }
 
 .homeIcon-r0w4ny {

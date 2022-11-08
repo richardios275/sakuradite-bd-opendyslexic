@@ -1,4 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter&display=swap');
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: "Inter", sans-serif;
@@ -6,5 +6,5 @@
 
 code {
     font-family: "Fira Code", monospace;
-    }
+}
     
