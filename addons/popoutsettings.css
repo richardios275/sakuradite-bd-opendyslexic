@@ -5,7 +5,7 @@ Source: https://github.com/Asteria5675/BetterDiscordThemes/blob/master/SourceCod
 
 :root {
 	--width2: 50%;
-	--height2: 80%;
+	--height2: 70%;
 }
 
 .layers-OrUESM {
@@ -26,9 +26,9 @@ Source: https://github.com/Asteria5675/BetterDiscordThemes/blob/master/SourceCod
   top: calc((100% - var(--height2)) / -1);
   left: calc((100% - var(--width2)) / -1);
   padding: calc(100% - var(--height2)) calc(100% - var(--width2));
-  background: rgb(80, 21, 44);
+  background: var(--accent);
   z-index: 2;
-  opacity: 0.2;
+  opacity: 0.1;
   width: 100%;
   height: 100%;
   transition: opacity 350ms ease;
@@ -45,3 +45,4 @@ Source: https://github.com/Asteria5675/BetterDiscordThemes/blob/master/SourceCod
   transform: translateZ(0);
   z-index: 3;
 }
+

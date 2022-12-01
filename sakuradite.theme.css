@@ -1,89 +1,96 @@
-  /**
+/**
  * @name Sakuradite
  * @author AZZZERTYY
  * @authorId 196392067281321985
  * @description Cherry discord theme based on the sakuradite color scheme
  * @source https://github.com/azzzertyy/sakuradite
- * @version 1.1
- */
+ * @version 1.2
+*/
 
  
  @import url("https://azzzertyy.github.io/sakuradite-bd//sakuradite.css"); 
  
   :root {
+    /*Generals, used across the entire theme*/
    --accent: #ff0062;
-   --channel-icon: var(--accent);
+   --accent-dark: #850033;
    --glow: #ff0062aa;
-   --bg-server: #172125;
-   --bg-button: #172125;
-   --bg-button-hover: #121a1d;
-   --bg-toolbar: #1a262b;
-   --bg-search: #121a1d;
-   --bg-search-click: #212b31;
-   --bg-channel: #172125;
-   --bg-channel-name: #1a262b;
-   --bg-unread: #212b31;
-   --bg-guild: #121a1d;
-   --message-box: #172125;
-   --code: #1a262b;
-   --bg-text-modal: #1a262b;
-   --bg-member: #172125;
-   --bg-friend-toolbar: #1a262b;
-   --bg-friends: #172125;
-   --bg-friends-search: #1a262b;
-   --bg-friends-list: #121a1d;
-   --bg-friend-selected: #ff0062;
-   --bg-activity: #172125;
-   --bg-activity-modal: #121a1d;
-   --add-dm: #1a262b;
-   --message-box-addition: #172125;
-   --search-modal: #1a262b;
-   --search-modal-header: #1a262b;
-   --search-modal-result: #121a1d;
-   --inbox-header: #1a262b;
-   --inbox-message: #121a1d;
-   --bg-quick: #172125;
-   --bg-wtg: #212b31;
-   --notifications: #121a1d;
-   --bg-forum: #121a1d;
-   --forum-divider: #1a262b;
-   --forum-card: #1a262b;
-   --forum-tag: #121a1d;
-   --user-modal: #172125;
-   --user-badges: #121a1d;
-   --user-connections: #121a1d;
-   --light-text: #ffeff5;
+   --dark1: #121a1d;
+   --dark2: #172125;
+   --dark3: #1a262b;
    --dark-text: #212b31;
-   --threads: #121a1d;
-   --threads-header:#1a262b;
-   --threads-card: #1a262b;
-   --setting: #121a1d;
-   --setting-sidebar: #172125;
-   --setting-user: #1a262b;
-   --nitro-gradient: linear-gradient(90deg, rgba(255,0,98,1) 0%, rgba(255,0,183,1) 100%);
-   --bg-role: #121a1d;
-   
-   /* Activity Colors */
-   --activity-bg: #ff80ea;
-   --spotify-bg: #1bf3a0;
-   --twitch-bg: #7929cc;
-   --bot-bg: #9733ff;
-   --xbox-bg: #17cc86;
+   --light-text: #ffeff5;
+   --nitro-gradient: linear-gradient(90deg, rgb(255, 0, 55) 0%, rgb(234, 0, 255) 100%);
+
+
+   /*Specific editing, if you wish to change any specific part, go ahead.*/
+   --titlebar: var(--dark1);
+   --channel-icon: var(--accent);
+   --bg-server: var(--dark2);
+   --bg-button: var(--dark2);
+   --bg-button-hover: var(--dark1);
+   --bg-toolbar: var(--dark3);
+   --bg-search: var(--dark1);
+   --bg-search-click: var(--dark1);
+   --bg-channel: var(--dark2);
+   --bg-channel-name: var(--dark3);
+   --bg-unread: var(--dark-text);
+   --bg-guild: var(--dark1);
+   --bg-embed: var(--dark2);
+   --message-box: var(--dark2);
+   --reaction: var(--dark3);
+   --code: var(--dark3);
+   --bg-text-modal: var(--dark3);
+   --bg-member: var(--dark2);
+   --bg-friend-toolbar: var(--dark3);
+   --bg-friends: var(--dark2);
+   --bg-friends-search: var(--dark3);
+   --bg-friends-list: var(--dark1);
+   --bg-friend-selected: var(--accent);
+   --bg-activity: var(--dark2);
+   --bg-activity-modal: var(--dark1);
+   --add-dm: var(--dark3);
+   --message-box-addition: var(--dark2);
+   --search-modal: var(--dark3);
+   --search-modal-header: var(--dark3);
+   --search-modal-result: var(--dark1);
+   --inbox-header: var(--dark3);
+   --inbox-message: var(--dark1);
+   --bg-quick: var(--dark2);
+   --bg-wtg: var(--dark-text);
+   --notifications: var(--dark1);
+   --bg-forum: var(--dark1);
+   --forum-divider: var(--dark3);
+   --forum-card: var(--dark3);
+   --forum-tag: var(--dark1);
+   --user-modal: var(--dark2);
+   --user-badges: var(--dark1);
+   --user-connections: var(--dark1);
+   --threads: var(--dark1);
+   --threads-header:var(--dark3);
+   --threads-card: var(--dark3);
+   --setting: var(--dark1);
+   --setting-sidebar: var(--dark2);
+   --setting-user: var(--dark3);
+   --tooltip: var(--dark3);
+   --bg-role: var(--dark1);
+   --bg-picker: var(--dark2);
+   --status-danger: var(--dark-text);
+   --background-modifier-hover: var(--bg-search);
  }    
+
  /*Toolbar Button Colors */
  .toolbar-3_r2xA .iconWrapper-2awDjA {
    --interactive-muted: #a09699;
    --interactive-normal: #ffeff5;
-   --interactive-hover: #c9004d;
+   --interactive-hover: var(--accent);
    --interactive-active: var(--accent);
  }
     
  /*Channel Buttons */
  .name-28HaxV {
-   --interactive-normal: #ff004c;
-   --interactive-muted: #a09699;
+   --interactive-normal: var(--accent);
+   --interactive-muted: #837c7e;
    --interactive-hover: var(--dark-text) !important;
    --interactive-active: var(--dark-text);
  }
-  
-    

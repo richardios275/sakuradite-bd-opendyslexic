@@ -147,3 +147,62 @@
     background: var(--accent) !important;
     color: var(--dark-text) !important; 
 }
+
+.container-3tKtM_{
+    background: var(--bg-toolbar);
+    border-color: transparent;
+}
+
+.addFriendInputWrapper-kkoSV9,.container-x8Y1ix, .rowContainer-3t7486, .inputDefault-3FGxgL, .container-x8Y1ix:hover{
+    background: var(--bg-toolbar) !important;
+    border-color: transparent;
+}
+
+.addFriendInputWrapper-kkoSV9:focus-within{
+    border-color: var(--accent);
+}
+
+.actionButton-3-B2x-,.actionButton-3-B2x-.actionDeny-1pQVuZ:hover{
+    background: var(--accent);
+    color: var(--dark-text);
+}
+
+.content-1jQy2l{
+    background: var(--bg-guild);
+}
+
+.hamBanner-2jDGhV{
+    background: var(--bg-toolbar);
+}
+
+.compactButton-3hG-bs, .compactButtonDisabled-MwB2d6{
+    background: var(--accent);
+    .text-md-normal-304U3g, .defaultColor-24IHKz, .defaultColor-HXu-5n, .text-xs-bold-1NF1lz, .sampleLink-5BWNy9, .text-md-normal-304U3g{
+        color: var(--dark-text) !important;
+    }
+}
+
+.compactButton-3hG-bs:hover, .compactButtonDisabled-MwB2d6:hover{
+    background: var(--accent);
+    .text-md-normal-304U3g, .defaultColor-24IHKz, .defaultColor-HXu-5n, .text-xs-bold-1NF1lz, .sampleLink-5BWNy9, .text-md-normal-304U3g{
+        color: var(--dark-text) !important;
+    }
+}
+
+.selected-5uRER3, .siblingSelected-3UH_0Q{
+    background: var(--bg-guild);
+}
+
+.messageRequestItem-1_NNAR.active-1iRyqF, .messageRequestItem-1_NNAR{
+    background: var(--bg-guild);
+    border-color: transparent;
+}
+
+.theme-dark .checkbox-f1HnKB{
+    border-color: var(--accent);
+}
+
+.tag-15zcD_{
+    background: var(--accent);
+    color: var(--dark-text);
+}

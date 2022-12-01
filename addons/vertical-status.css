@@ -22,7 +22,7 @@ Source: https://raw.githubusercontent.com/Lavender-Discord/Lavender/main/design/
 
 .panels-3wFtMD .container-YkUktl:last-child {
     height: 40px;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
     
 }
 
@@ -108,6 +108,7 @@ Source: https://raw.githubusercontent.com/Lavender-Discord/Lavender/main/design/
     height: 100px;
     position: relative;
     margin-bottom: 5px;
+    width: 225px;
 }
 
 .container-YkUktl:last-child .avatarWrapper-1B9FTW {
@@ -123,6 +124,7 @@ Source: https://raw.githubusercontent.com/Lavender-Discord/Lavender/main/design/
     border-radius: var(--radius-secondary) !important;
     transition: all 125ms linear;
     cursor: pointer;
+    width: 225px;
 }
 
 .container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt::before,
@@ -136,14 +138,13 @@ Source: https://raw.githubusercontent.com/Lavender-Discord/Lavender/main/design/
     left: 2px;
     opacity: 0;
     border-radius: 5px;
-    background-color: var(--accent-primary);
 }
 
 .container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L:hover,
 .container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt:hover,
 .container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L[aria-expanded="true"],
 .container-YkUktl:last-child .avatarWrapper-1B9FTW.withTagless-10ooWt[aria-expanded="true"] {
-    background-color: var(--accent);
+    background-color: transparent;
     padding-left: 20px;
     color: black;
 }

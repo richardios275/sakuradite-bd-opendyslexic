@@ -100,10 +100,6 @@ Author:Disease#3749*/
     }
 }
 
-.tagsButton-4pwOKH .tagsButtonInner-2pvSm1 {
-    color: var(--accent);
-}
-
 .container-2O1UgZ {
     background: var(--forum-card);
     border-color: var(--bg-forum);
@@ -112,8 +108,26 @@ Author:Disease#3749*/
     height: 265px;
 }
 
-.item-1BCeuB:hover {
-    background: var(--bg-forum) !important;
+.mainCard-3KBsBI form .title-1v5ZfI, .mainCard-3KBsBI form .title-1v5ZfI::placeholder {
+    background: transparent;
+}
+
+.tagsButton-4pwOKH{
+    background: var(--forum-card);
+    .tagsButtonInner-2pvSm1{
+        color: var(--accent);
+    }
+}
+
+.container-3kfp0r{
+    background: var(--bg-forum);
+}
+
+.tagsButton-4pwOKH:hover{
+    background: var(--accent);
+    .tagsButtonInner-2pvSm1{
+        color: var(--dark-text) !important;
+    }
 }
 
 .container-2oNtJn, .inner-2pOSmK {
@@ -149,4 +163,55 @@ Author:Disease#3749*/
 
 .tagsContainer-3rSFH5 .tagsButton-2EKn70 .tagsButtonInner-QgpYNg {
     color: var(--accent)
+}
+
+.wrapper-2O6Aho, .container-2_J666, .wrapper-2O6Aho:hover{
+    background: var(--forum-card) !important;
+    border-radius: 20px;
+}
+
+.stepContainer-SaPPyG, .stepContainer-SaPPyG:hover{
+    background: var(--bg-forum) !important;
+}
+
+.optionPill-3_uSHD{
+    background: var(--bg-forum);
+}
+
+.lookFilled-yCfaCM.colorBrandNew-2-gGsS, .lookFilled-yCfaCM.colorBrandNew-2-gGsS:hover{
+    background: var(--accent);
+    color: var(--dark-text);
+}
+
+.text-xs-medium-2LRpEj{
+    color: var(--accent) !important;
+}
+
+.addReactButton-3bSQb6{
+    background: var(--bg-forum);
+}
+
+.addReactButton-3bSQb6:hover{
+    background: var(--accent);
+    color: var(--dark-text);
+}
+
+.reactionBtn-fVdJIx:hover .icon-fX2J7U{
+    color: var(--dark-text) !important;
+}
+
+.theme-dark .active-OdlCV-:hover{
+    color: var(--dark-text);
+}
+
+.theme-dark .container-2qVG6q.isOpen-2OXbFs{
+    background: var(--forum-card);
+}
+
+.iconWrapper-3FqQ75{
+    background: var(--accent);
+}
+
+.icon-3gfzEo{
+    color: var(--dark-text);
 }
