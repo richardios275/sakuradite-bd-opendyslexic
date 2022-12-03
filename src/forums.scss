@@ -80,9 +80,14 @@ Author:Disease#3749*/
 .mainCard-3KBsBI:hover .pill-3pRQlO:hover {
     background-color: var(--accent);
     color: var(--dark-text);
-    .defaultColor-24IHKz {
-        color: var(--dark-text);
-    }
+}
+
+.container-2d0jMv,.scroller-1bVxF5{
+    background: var(--bg-server);
+}
+
+.pill-3pRQlO:hover .defaultColor-24IHKz{
+    color: var(--dark-text) !important;
 }
 
 .mainCard-3KBsBI .dots-2_b2Mn {
@@ -183,10 +188,6 @@ Author:Disease#3749*/
     color: var(--dark-text);
 }
 
-.text-xs-medium-2LRpEj{
-    color: var(--accent) !important;
-}
-
 .addReactButton-3bSQb6{
     background: var(--bg-forum);
 }
@@ -214,4 +215,42 @@ Author:Disease#3749*/
 
 .icon-3gfzEo{
     color: var(--dark-text);
+}
+
+.reactionInner-1po5__,.reaction-102jx9{
+    background: var(--bg-forum);
+    border-radius: 10px;
+}
+
+.reaction-102jx9:hover,.reaction-102jx9.reactionMe-2zhiyZ{
+    background-color: var(--accent);
+    border-color: transparent;
+}
+
+.theme-dark .textContentFooter-2JnNv8{
+    background: transparent;
+}
+
+.container-1PloNW:hover{
+    background: var(--forum-card);
+}
+
+.contentPreview-3fWiuC{
+    border-color: transparent;
+}
+
+.countContainer-3DOo5v{
+    background: var(--accent);
+    .text-xs-medium-2LRpEj:not(.defaultColor-24IHKz){
+        color: var(--dark-text) !important;
+    }
+}
+
+.clear-2gkgln{
+    color: var(--accent);
+}
+
+.container-3arpDl,.descriptionContainer-2ylKGk{
+    background: var(--forum-card);
+    border-color: transparent;
 }

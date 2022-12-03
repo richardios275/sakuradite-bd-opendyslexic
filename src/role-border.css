@@ -4,4 +4,11 @@
 
 .role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0) {
   background: var(--bg-role);
+  border-color: transparent;
 }
+
+.rolePillBorder-RiRiuN{
+  background: var(--bg-role);
+  border-color: transparent;
+}
+

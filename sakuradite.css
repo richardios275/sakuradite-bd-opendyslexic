@@ -805,6 +805,237 @@ code.scrollbarGhostHairline-2LpzZ9 {
   border-color: var(--accent);
 }
 
+.content-2M_BlY, .wrapper-2SplAX {
+  background: transparent;
+}
+
+.scroller-oTbAWP, .submitContainer-1DHMA0 {
+  background: var(--bg-guild);
+}
+
+.iconWrapper-3plkqh {
+  background: var(--accent);
+}
+
+.icon-382itv {
+  color: var(--dark-text);
+}
+
+.preview-QJ3OG3, .preview-3k9WhO {
+  background: transparent;
+  border-color: var(--accent);
+}
+
+.previewMessage-2g_aBv {
+  background: transparent;
+}
+
+.barFill-2Bh7CX {
+  background: var(--accent);
+}
+
+.defaultValue-19SZ-q .markValue-2U_-UG {
+  color: var(--accent);
+}
+
+.theme-dark .checkbox-f1HnKB {
+  background: var(--accent) !important;
+}
+
+.container-2nx-BQ, .input-2XRLou {
+  background-color: var(--accent) !important;
+}
+
+.userSettingsVoice-1fEtsL .inputSensitivityToggle-KBDP3x.manual-36QrDU .microphone-2RrrW7 .fill-2w_rRE {
+  background-color: var(--accent-dark);
+}
+
+.bar-1Bhnl9 {
+  background: var(--accent) !important;
+}
+
+.camera-v1e2uN, .cameraWrapper-3a7Ngv {
+  background: var(--bg-server);
+}
+
+.textBadge-1fdDPJ {
+  display: none;
+}
+
+.cardWarning-WRe-Qa, .cardWarningOutline-oI6sWf {
+  display: none;
+}
+
+.icon-1dGlZy {
+  color: var(--accent);
+}
+
+.avatarUploaderNormal-1h8g3f {
+  margin-left: 31%;
+}
+
+.buttonColor-1u-3JF {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.noItemsCard-2V85P5, .noItemsCard-5EOcCl, .tryItOutSection-W9qeGH {
+  background: transparent;
+}
+
+.theme-dark .progress-1S-TDF {
+  background: var(--accent);
+}
+
+.theme-dark .notches-2w7UZJ.gray-3wP137 {
+  color: var(--bg-guild);
+}
+
+.option-2eIyOn.focused-ODgjnC, .option-2eIyOn:focus, .option-2eIyOn:hover {
+  background: var(--dark1);
+}
+
+.ddrArrows-24s05s .arrow-hkea5Y {
+  display: none;
+}
+
+.card-8UsK4b, .card-8UsK4b:hover {
+  background: var(--bg-guild);
+  border-color: transparent;
+}
+
+.eventStatusBrand-3D-ae6 {
+  color: var(--accent);
+}
+
+.contentContainer-BWAau5 {
+  background: var(--bg-server);
+}
+
+.theme-dark .footer-1hTRRZ {
+  background: var(--bg-toolbar);
+}
+
+.lookOutlined-3yKVGo.colorGreen-3y-Z79 {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover, .lookOutlined-3yKVGo.colorGreen-3y-Z79:active {
+  background: var(--accent);
+  color: var(--dark-text);
+  border-color: var(--accent);
+}
+
+.theme-dark .inviteRow-3vmB7i:hover {
+  background: transparent;
+}
+
+.upsellContainer-TwfTaF {
+  display: none;
+}
+
+.px-MnE_OR.botTag-7aX5WZ {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.theme-dark .inviteBannerUpsell-1t_LYM {
+  display: none;
+}
+
+.text-xs-medium-2LRpEj:not(.defaultColor-24IHKz) {
+  color: var(--accent) !important;
+}
+
+.barButtonMain-2GIx4o, .span-3lFnWr, .barButtonAlt-TQoCdZ {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.colorDefault-CDqZdO .checkbox-hADx5o, .colorDefault-CDqZdO .radioSelection-1UHp0b {
+  color: var(--accent);
+}
+
+.colorDefault-CDqZdO .check-3HZJs4, .colorDefault-CDqZdO.focused-3qFvc8 {
+  color: var(--dark-text);
+}
+
+.activeThreadsList-12IFYm, .header-3cSJjT {
+  background: var(--bg-guild);
+}
+
+.developerPortalCtaWrapper-2PniQs {
+  background: transparent;
+}
+
+.analyticsCard-2fnrVG, .featureCard-3XHbjy, .welcomeChannel-_Q4qAA, .ctaContent-3uw8O1, .howItWorksCard-2OKoVI, .howItWorksImageContainer-3ZJ-AE, .earningBenefitCard--EbFd8, .followerBenefitCard-3l5J5o, .revenueShareBenefitCard-2o-5vE, .guildCard-3JHk9F {
+  background: var(--bg-server);
+}
+
+.description-30xx7u, .labelDescriptor-34wZ-z {
+  display: none;
+}
+
+.featureIcon-2sTnDK, .subscriberCountText-2chwJx {
+  background: var(--accent);
+}
+
+.subscriberCountText-2chwJx, .subscriberCountValue-2fmd33 {
+  background: var(--accent);
+}
+
+.previewContainer-29oeA6, .enableContainer-H2cRts, .howItWorksContainer-2zbci6 {
+  background: var(--bg-guild);
+}
+
+.lookFilled-yCfaCM.colorWhite-1H92hK {
+  background: var(--accent);
+}
+
+.waitlistCtaButtonText-1WahEI {
+  color: var(--dark-text) !important;
+}
+
+.waitlist-3g7w1i {
+  background: transparent;
+  border-color: var(--accent);
+}
+
+.brownMessageBlock-r5H96c .messageBlockIcon-a_xAgW {
+  color: var(--accent);
+}
+
+.serverBoostTabItem-3QwA3W[aria-selected=true] {
+  background-color: var(--accent) !important;
+  color: var(--dark-text) !important;
+}
+
+.theme-dark .tierBody-1d3UiS, .tierHeaderContent-2SPBAA {
+  background: var(--bg-server);
+}
+
+.tierUnlocked-ziudxO {
+  background: var(--nitro-gradient);
+}
+
+.foreground-3_3Pgi, .theme-dark .tierAccomplished-1I5NaT, .theme-dark .tierCurrent-2nowYi, .theme-dark .tierFirst-1Vn3wS, .theme-light .tierAccomplished-1I5NaT, .theme-light .tierCurrent-2nowYi, .theme-light .tierFirst-1Vn3wS {
+  color: var(--accent);
+  background: var(--accent);
+}
+
+.tierIcon-3m8V16 {
+  color: var(--accent);
+}
+
+.tier0Card-1Wqd5R, .tier0Container-3pQqp9, .wrapper-2-Da9H {
+  display: none;
+}
+
+.upsellFooter-3M1V33, .upsellContent-10YytV, .mainContainer-yxgti4, .ruleIconContainer-dXW56-, .editCard-K9Q9mb:before, .actionContainer-2krsiT, .upsellFooter-3M1V33, .upsellContent-10YytV, .mainContainer-yxgti4, .ruleIconContainer-dXW56-, .editCard-K9Q9mb:before, .actionContainer-2krsiT, .statusYellow-2nYnVP, .backgroundModifierContainer-WjXgb2, .containerPadding-3Ok3MG, .spacingContainer-sjbG_- + .spacingContainer-sjbG_-, .verificationContainer-3qb1n0, .wrapper-24fR1R, .wrapper-24fR1R:focus-within, .wrapper-24fR1R:hover {
+  background: var(--bg-server);
+}
+
 .scroller-WSmht3 {
   background: var(--bg-friends);
 }
@@ -1016,6 +1247,16 @@ code.scrollbarGhostHairline-2LpzZ9 {
   color: var(--dark-text);
 }
 
+.interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover {
+  background: var(--accent);
+  color: var(--dark-text);
+}
+
+.actionButton-3-B2x-.highlight-3DSi7b {
+  background-color: var(--accent);
+  color: var(--dark-text);
+}
+
 .anchor-1MIwyf[href="https://support.discord.com"] {
   display: none !important;
 }
@@ -1100,6 +1341,12 @@ code.scrollbarGhostHairline-2LpzZ9 {
 
 .role-2TIOKu.flex-3BkGQD:not(.addButton-1_dZYu):not(.actionButton-1YKTU0) {
   background: var(--bg-role);
+  border-color: transparent;
+}
+
+.rolePillBorder-RiRiuN {
+  background: var(--bg-role);
+  border-color: transparent;
 }
 
 .homeIcon-r0w4ny {
@@ -1243,8 +1490,13 @@ Author:Disease#3749*/
   background-color: var(--accent);
   color: var(--dark-text);
 }
-.mainCard-3KBsBI:hover .pill-3pRQlO:hover .defaultColor-24IHKz {
-  color: var(--dark-text);
+
+.container-2d0jMv, .scroller-1bVxF5 {
+  background: var(--bg-server);
+}
+
+.pill-3pRQlO:hover .defaultColor-24IHKz {
+  color: var(--dark-text) !important;
 }
 
 .mainCard-3KBsBI .dots-2_b2Mn {
@@ -1346,10 +1598,6 @@ Author:Disease#3749*/
   color: var(--dark-text);
 }
 
-.text-xs-medium-2LRpEj {
-  color: var(--accent) !important;
-}
-
 .addReactButton-3bSQb6 {
   background: var(--bg-forum);
 }
@@ -1377,6 +1625,44 @@ Author:Disease#3749*/
 
 .icon-3gfzEo {
   color: var(--dark-text);
+}
+
+.reactionInner-1po5__, .reaction-102jx9 {
+  background: var(--bg-forum);
+  border-radius: 10px;
+}
+
+.reaction-102jx9:hover, .reaction-102jx9.reactionMe-2zhiyZ {
+  background-color: var(--accent);
+  border-color: transparent;
+}
+
+.theme-dark .textContentFooter-2JnNv8 {
+  background: transparent;
+}
+
+.container-1PloNW:hover {
+  background: var(--forum-card);
+}
+
+.contentPreview-3fWiuC {
+  border-color: transparent;
+}
+
+.countContainer-3DOo5v {
+  background: var(--accent);
+}
+.countContainer-3DOo5v .text-xs-medium-2LRpEj:not(.defaultColor-24IHKz) {
+  color: var(--dark-text) !important;
+}
+
+.clear-2gkgln {
+  color: var(--accent);
+}
+
+.container-3arpDl, .descriptionContainer-2ylKGk {
+  background: var(--forum-card);
+  border-color: transparent;
 }
 
 .sidebarRegionScroller-FXiQOh {
@@ -1554,6 +1840,18 @@ Author:Disease#3749*/
   color: var(--dark-text);
 }
 
+.header-11eigE {
+  background: var(--bg-server);
+}
+
+.standardStickerShortcut-ObSns3 {
+  display: none;
+}
+
+.premiumCategorySelected-2KWLhN, .premiumCategorySelected-2KWLhN:hover, .stickerCategoryGenericSelected-DnO2K8, .stickerCategoryGenericSelected-DnO2K8:hover, .stickerCategoryGeneric-29JiZ2:hover {
+  background: transparent;
+}
+
 .colorDanger-2YLzLC {
   background-color: var(--accent);
   color: var(--dark-text);
@@ -1663,6 +1961,10 @@ Author:Disease#3749*/
 }
 .modeConnected-NrO4cP .icon-2W8DHg, .modeConnected-NrO4cP .actionIcon-2sw4Sl {
   color: var(--dark-text);
+}
+
+.audioControls-3fmemK, .videoControls-2NzHnF {
+  background: var(--bg-guild);
 }
 
 :root {
