@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'opendyslexic';
+      src: url('https://github.com/richardios275/sakuradite-bd-opendyslexic/raw/master/assets/fonts/OpenDyslexic-Regular.otf');
+      font-style: normal;
+      font-weight: normal;
+  } 
+  
+  @font-face {
+      font-family: 'opendyslexic';
+      src: url('https://github.com/richardios275/sakuradite-bd-opendyslexic/raw/master/assets/fonts/OpenDyslexic-Italic.otf');
+      font-style: italic;
+      font-weight: normal;
+  }
+  
+  @font-face {
+      font-family: 'opendyslexic';
+      src: url('https://github.com/richardios275/sakuradite-bd-opendyslexic/raw/master/assets/fonts/OpenDyslexic-Bold.otf');
+      font-weight: bold;
+      font-style: normal;
+  } 
+  
+  @font-face {
+      font-family: 'opendyslexic';
+      src: url('https://github.com/richardios275/sakuradite-bd-opendyslexic/raw/master/assets/fonts/OpenDyslexic-Bold-Italic.otf');
+      font-weight: bold;
+      font-style: italic;
+  } 
+  
+  @font-face {
+      font-family: eulexia;
+      src: url('http://dyslexicfonts.com/fonts/eulexia.ttf');
+  } 
+
+  @font-face {
+    font-family: 'opendyslexic-mono';
+      src: url('https://github.com/richardios275/sakuradite-bd-opendyslexic/raw/master/assets/fonts/OpenDyslexicMono-Regular.otf');
+      font-style: normal;
+      font-weight: normal;
+  } 
