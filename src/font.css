@@ -1,6 +1,4 @@
 @import url('https://github.com/richardios275/sakuradite-bd-opendyslexic/raw/master/opendyslexic.css');
-
-
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: "opendyslexic", sans-serif;
 }
